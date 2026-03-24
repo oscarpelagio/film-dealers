@@ -1,0 +1,7 @@
+Mar 25, 2026 00:18:56.035 [281473691340280] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
+Mar 25, 2026 00:18:56.037 [281473691340280] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1, language: en-US
+Mar 25, 2026 00:18:56.040 [281473691340280] INFO - Processor: 8-core Apple Swift
+Mar 25, 2026 00:18:56.040 [281473691340280] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 3 --content-type=application/json
+Mar 25, 2026 00:18:56.017 [281473787232312] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Mar 25, 2026 00:18:56.186 [281473787232312] DEBUG - Matcher: found 0 auxiliary files for Spider-Man: un nuevo universo
+Mar 25, 2026 00:18:56.186 [281473787232312] DEBUG - Matcher: no sidecar subtitle files found for /movies/Spider-Man - Into the Spider-Verse (2018)/Spider-Man - Into the Spider-Verse (2018) Bluray-2160p.mkv

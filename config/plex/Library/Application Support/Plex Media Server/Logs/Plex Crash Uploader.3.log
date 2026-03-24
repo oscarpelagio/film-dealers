@@ -1,0 +1,5 @@
+Mar 24, 2026 23:05:22.297 [281473153383120] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1774388582 Duration: 1340 UserId: oscaarpelagio@gmail.com Version: 1.43.0.10492-121068a07
+Mar 24, 2026 23:05:22.294 [281473184954512] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Mar 24, 2026 23:05:22.482 [281473153198800] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.2s) 200 response from POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Mar 24, 2026 23:05:22.482 [281473184954512] INFO - Successfully reported session health
+Mar 24, 2026 23:05:22.482 [281473184954512] INFO - Crash Uploader - Processing Complete.

@@ -1,0 +1,7 @@
+Mar 24, 2026 21:10:36.068 [281473473334776] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
+Mar 24, 2026 21:10:36.068 [281473473334776] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1, language: en-US
+Mar 24, 2026 21:10:36.069 [281473473334776] INFO - Processor: 8-core Apple Swift
+Mar 24, 2026 21:10:36.069 [281473473334776] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 1 --content-type=application/json
+Mar 24, 2026 21:10:36.068 [281473569275960] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Mar 24, 2026 21:10:36.114 [281473569275960] DEBUG - Matcher: found 0 auxiliary files for Los domingos
+Mar 24, 2026 21:10:36.114 [281473569275960] DEBUG - Matcher: no sidecar subtitle files found for /movies/Los domingos (2025).mkv

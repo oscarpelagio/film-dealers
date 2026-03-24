@@ -1,0 +1,49 @@
+<SessionReport version="2" startTime="0" startTimestamp="Mar 25, 2026 00:20:36.355" key="/library/metadata/3" session="pubi0swlmqhabk6y3j0fwrbt" transcode="c69kai5zishyn6ueysdwz5zu">
+<User id="1" thumb="https://plex.tv/users/13c22c5e07b46486/avatar?c=1774385741" title="oscaarp" />
+<Player address="192.168.148.1" device="OSX" machineIdentifier="qjt50inxtzsqjpbem7hjo0tw" model="bundled" platform="Safari" platformVersion="26.3" product="Plex Web" remotePublicAddress="79.117.226.16" title="Safari" version="4.156.0" local="1" relayed="0" secure="0" userID="1" />
+<Variants>
+<Variant id="db6b60d8-80af-4007-a936-552217ada2e0" targetBitrate="6917" context="streaming" sourceVideoCodec="hevc" sourceAudioCodec="aac" videoDecision="copy" audioDecision="transcode" subtitleDecision="transcode" protocol="dash" container="mp4" videoCodec="hevc" audioCodec="aac" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media id="5" videoProfile="main 10" audioChannels="2" audioCodec="aac" bitrate="3421" container="mp4" duration="7010086" height="1608" optimizedForStreaming="1" protocol="dash" videoCodec="hevc" videoFrameRate="24p" videoResolution="4K" width="3840" selected="1">
+<Part id="5" videoProfile="main 10" bitrate="3421" container="mp4" duration="7010086" height="1608" optimizedForStreaming="1" protocol="dash" width="3840" decision="transcode" selected="1">
+<Stream bitDepth="10" bitrate="3165" chromaLocation="left" chromaSubsampling="4:2:0" codec="hevc" codedHeight="1608" codedWidth="3840" colorRange="tv" default="1" displayTitle="4K" extendedDisplayTitle="4K (HEVC Main 10)" frameRate="23.975999832153320" height="1608" id="11" level="150" profile="main 10" refFrames="1" scanType="progressive" streamType="1" width="3840" decision="copy" location="segments-video" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" default="1" displayTitle="Unknown (AAC 5.1)" extendedDisplayTitle="Unknown (AAC 5.1)" id="12" selected="1" streamType="2" decision="transcode" location="segments-audio" />
+<Stream codec="ass" container="ass" default="1" displayTitle="English" extendedDisplayTitle="English-SRT" format="ass" id="13" language="English" languageCode="eng" languageTag="en" selected="1" streamType="3" decision="transcode" location="segments-subs" />
+</Part>
+</Media>
+</Variant>
+</Variants>
+<SegmentList>
+<Segment duration="10336" startOffset="0" endOffset="10336">
+<File name="chunk-stream0-00001.m4s" type="video">
+<FileVariant size="2881497" variant="db6b60d8-80af-4007-a936-552217ada2e0" />
+</File>
+<File name="chunk-stream1-00001.m4s" type="audio">
+<FileVariant size="247595" variant="db6b60d8-80af-4007-a936-552217ada2e0" />
+</File>
+<Timelines>
+<Transcode startTime="237" endTime="546" complete="1" fileType="video" variant="db6b60d8-80af-4007-a936-552217ada2e0" />
+<Transcode startTime="237" endTime="546" complete="1" fileType="audio" variant="db6b60d8-80af-4007-a936-552217ada2e0" />
+</Timelines>
+</Segment>
+<Segment duration="1627" startOffset="10336" endOffset="11963">
+<File name="chunk-stream0-00002.m4s" type="video">
+<FileVariant size="2467770" variant="db6b60d8-80af-4007-a936-552217ada2e0" />
+</File>
+<File name="chunk-stream1-00002.m4s" type="audio">
+<FileVariant size="49198" variant="db6b60d8-80af-4007-a936-552217ada2e0" />
+</File>
+<Timelines>
+<Transcode startTime="546" endTime="595" complete="1" fileType="video" variant="db6b60d8-80af-4007-a936-552217ada2e0" />
+<Transcode startTime="546" endTime="595" complete="1" fileType="audio" variant="db6b60d8-80af-4007-a936-552217ada2e0" />
+</Timelines>
+</Segment>
+<Segment duration="0" startOffset="-1" endOffset="-1">
+<Timelines>
+<Download startTime="793" fileType="video" variant="db6b60d8-80af-4007-a936-552217ada2e0" />
+</Timelines>
+</Segment>
+</SegmentList>
+<PlaybackReports />
+<StateReports />
+<StateReports />
+</SessionReport>

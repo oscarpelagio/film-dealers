@@ -1,0 +1,4 @@
+Mar 24, 2026 22:43:04.446 [281473544174288] INFO - Crash Uploader - Platform: Linux ServerUUID: 0b7ef4be55a6ce2cbd71deb676303551923b4830 UserId: oscaarpelagio@gmail.com Version: 1.43.0.10492-121068a07
+Mar 24, 2026 22:43:04.446 [281473544174288] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.43.0.10492-121068a07
+Mar 24, 2026 22:43:04.446 [281473544174288] INFO - Post-processed minidump directory: /run/plex-temp
+Mar 24, 2026 22:43:04.446 [281473575745680] INFO - Crash Uploader - Processing Complete.

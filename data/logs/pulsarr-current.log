@@ -1,0 +1,653 @@
+{"level":30,"time":1774380398468,"pid":7,"hostname":"f10409d02a48","msg":"Using baseUrl: http://localhost for service connections"}
+{"level":30,"time":1774380398859,"pid":7,"hostname":"f10409d02a48","msg":"No existing config found, creating initial config"}
+{"level":30,"time":1774380398867,"pid":7,"hostname":"f10409d02a48","msg":"[DATABASE] Config created with ID: 1"}
+{"level":30,"time":1774380398868,"pid":7,"hostname":"f10409d02a48","msg":"Creating default Sonarr instance from .env"}
+{"level":30,"time":1774380398871,"pid":7,"hostname":"f10409d02a48","msg":"[DATABASE] Sonarr instance created with ID: 1"}
+{"level":30,"time":1774380398879,"pid":7,"hostname":"f10409d02a48","msg":"Creating default Radarr instance from .env"}
+{"level":30,"time":1774380398881,"pid":7,"hostname":"f10409d02a48","msg":"[DATABASE] Radarr instance created with ID: 1"}
+{"level":30,"time":1774380398882,"pid":7,"hostname":"f10409d02a48","msg":"[SCHEDULER] Scheduler service initialized"}
+{"level":30,"time":1774380398883,"pid":7,"hostname":"f10409d02a48","msg":"[API_KEY] Initializing ApiKeyService"}
+{"level":30,"time":1774380398885,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] Initializing PlexServerService"}
+{"level":30,"time":1774380398888,"pid":7,"hostname":"f10409d02a48","msg":"[SONARR] Basic initialization only for Default Sonarr Instance (placeholder credentials)"}
+{"level":30,"time":1774380398889,"pid":7,"hostname":"f10409d02a48","msg":"[RADARR] Basic initialization only for Default Radarr Instance (placeholder credentials)"}
+{"level":30,"time":1774380398981,"pid":7,"hostname":"f10409d02a48","msg":"[CONTENT_ROUTER] Successfully loaded 9 router evaluators"}
+{"level":30,"time":1774380398981,"pid":7,"hostname":"f10409d02a48","msg":"Content router initialized with plugins: Conditional Router, Streaming Availability Router, Genre Router, Ratings Router, User Router, Year Router, Season Router, Language Router, Certification Router"}
+{"level":30,"time":1774380398982,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_LABEL_SYNC] Initializing PlexLabelSyncService"}
+{"level":30,"time":1774380398982,"pid":7,"hostname":"f10409d02a48","msg":"[DELETE_SYNC] Initializing Delete Sync Service"}
+{"level":30,"time":1774380398983,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SESSION_MONITOR] PlexSessionMonitorService initialized"}
+{"level":30,"time":1774380398983,"pid":7,"hostname":"f10409d02a48","msg":"[WATCHLIST_WORKFLOW] Initializing Watchlist Workflow Service"}
+{"level":30,"time":1774380401868,"pid":7,"hostname":"f10409d02a48","msg":"Anime database is empty, running initial update in background..."}
+{"level":30,"time":1774380401869,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] Initializing PlexServerService connections and users"}
+{"level":40,"time":1774380401869,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774380401870,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for user operations"}
+{"level":40,"time":1774380401870,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex users found during initialization"}
+{"level":40,"time":1774380401870,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for shared server operations"}
+{"level":40,"time":1774380401870,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No shared server info found during initialization"}
+{"level":30,"time":1774380401870,"pid":7,"hostname":"f10409d02a48","msg":"PlexServerService initialized successfully"}
+{"level":40,"time":1774380401871,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774380401871,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex token available, skipping SSE connection"}
+{"level":30,"time":1774380401871,"pid":7,"hostname":"f10409d02a48","msg":"[NOTIFICATIONS] [PLEX_MOBILE] Plex Pass status not yet determined — Plex mobile notifications deferred"}
+{"level":30,"time":1774380401871,"pid":7,"hostname":"f10409d02a48","msg":"[NOTIFICATIONS] No Apprise URL configured, Apprise notifications will be disabled"}
+{"level":30,"time":1774380401923,"pid":7,"hostname":"f10409d02a48","msg":"[ANIME] Starting anime database update..."}
+{"level":30,"time":1774380401923,"pid":7,"hostname":"f10409d02a48","msg":"[ANIME] Downloading anime list XML..."}
+{"level":30,"time":1774380401925,"pid":7,"hostname":"f10409d02a48","msg":"Server listening at http://127.0.0.1:3003"}
+{"level":30,"time":1774380401925,"pid":7,"hostname":"f10409d02a48","msg":"Server listening at http://192.168.147.6:3003"}
+{"level":30,"time":1774380402294,"pid":7,"hostname":"f10409d02a48","msg":"[ANIME] Downloaded anime list XML (1735423 bytes)"}
+{"level":30,"time":1774380402580,"pid":7,"hostname":"f10409d02a48","msg":"[ANIME] Processing 10530 anime entries from XML"}
+{"level":30,"time":1774380402588,"pid":7,"hostname":"f10409d02a48","msg":"[ANIME] Parsed 10529 anime ID entries"}
+{"level":30,"time":1774380402589,"pid":7,"hostname":"f10409d02a48","msg":"[ANIME] Breakdown: 4241 TVDB, 592 TMDB Movie, 4109 TMDB TV, 1587 IMDb"}
+{"level":30,"time":1774380402589,"pid":7,"hostname":"f10409d02a48","msg":"[ANIME] Parsed data in memory, now updating database..."}
+{"level":30,"time":1774380402590,"pid":7,"hostname":"f10409d02a48","msg":"[ANIME] Cleared existing anime IDs"}
+{"level":30,"time":1774380402664,"pid":7,"hostname":"f10409d02a48","msg":"[ANIME] Inserted anime IDs into database"}
+{"level":30,"time":1774380402671,"pid":7,"hostname":"f10409d02a48","msg":"[ANIME] Anime database updated successfully with 10529 entries"}
+{"level":30,"time":1774380402672,"pid":7,"hostname":"f10409d02a48","msg":"Initial anime database populated: 10529 entries"}
+{"level":30,"time":1774387030583,"pid":7,"hostname":"f10409d02a48","msg":"SIGTERM received, server closing"}
+{"level":30,"time":1774387141868,"pid":7,"hostname":"f10409d02a48","msg":"Using baseUrl: http://localhost for service connections"}
+{"level":30,"time":1774387142780,"pid":7,"hostname":"f10409d02a48","msg":"[SCHEDULER] Scheduler service initialized"}
+{"level":30,"time":1774387142782,"pid":7,"hostname":"f10409d02a48","msg":"[API_KEY] Initializing ApiKeyService"}
+{"level":30,"time":1774387142784,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] Initializing PlexServerService"}
+{"level":30,"time":1774387142788,"pid":7,"hostname":"f10409d02a48","msg":"[SONARR] Basic initialization only for Default Sonarr Instance (placeholder credentials)"}
+{"level":30,"time":1774387142790,"pid":7,"hostname":"f10409d02a48","msg":"[RADARR] Basic initialization only for Default Radarr Instance (placeholder credentials)"}
+{"level":30,"time":1774387142816,"pid":7,"hostname":"f10409d02a48","msg":"[CONTENT_ROUTER] Successfully loaded 9 router evaluators"}
+{"level":30,"time":1774387142818,"pid":7,"hostname":"f10409d02a48","msg":"Content router initialized with plugins: Conditional Router, Streaming Availability Router, Genre Router, Ratings Router, User Router, Year Router, Season Router, Language Router, Certification Router"}
+{"level":30,"time":1774387142819,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_LABEL_SYNC] Initializing PlexLabelSyncService"}
+{"level":30,"time":1774387142822,"pid":7,"hostname":"f10409d02a48","msg":"[DELETE_SYNC] Initializing Delete Sync Service"}
+{"level":30,"time":1774387142826,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SESSION_MONITOR] PlexSessionMonitorService initialized"}
+{"level":30,"time":1774387142828,"pid":7,"hostname":"f10409d02a48","msg":"[WATCHLIST_WORKFLOW] Initializing Watchlist Workflow Service"}
+{"level":30,"time":1774387145559,"pid":7,"hostname":"f10409d02a48","msg":"Anime database already contains 10529 entries"}
+{"level":30,"time":1774387145560,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] Initializing PlexServerService connections and users"}
+{"level":40,"time":1774387145561,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774387145561,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for user operations"}
+{"level":40,"time":1774387145561,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex users found during initialization"}
+{"level":40,"time":1774387145562,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for shared server operations"}
+{"level":40,"time":1774387145562,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No shared server info found during initialization"}
+{"level":30,"time":1774387145562,"pid":7,"hostname":"f10409d02a48","msg":"PlexServerService initialized successfully"}
+{"level":40,"time":1774387145562,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774387145562,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex token available, skipping SSE connection"}
+{"level":30,"time":1774387145562,"pid":7,"hostname":"f10409d02a48","msg":"[NOTIFICATIONS] [PLEX_MOBILE] Plex Pass status not yet determined — Plex mobile notifications deferred"}
+{"level":30,"time":1774387145563,"pid":7,"hostname":"f10409d02a48","msg":"[NOTIFICATIONS] No Apprise URL configured, Apprise notifications will be disabled"}
+{"level":30,"time":1774387145571,"pid":7,"hostname":"f10409d02a48","msg":"[SCHEDULER] Scheduler ready: 7 jobs scheduled and active"}
+{"level":30,"time":1774387145586,"pid":7,"hostname":"f10409d02a48","msg":"Server listening at http://127.0.0.1:3003"}
+{"level":30,"time":1774387145586,"pid":7,"hostname":"f10409d02a48","msg":"Server listening at http://192.168.147.7:3003"}
+{"level":30,"time":1774387155329,"pid":7,"hostname":"f10409d02a48","msg":"SIGTERM received, server closing"}
+{"level":30,"time":1774387774827,"pid":7,"hostname":"f10409d02a48","msg":"Using baseUrl: http://localhost for service connections"}
+{"level":30,"time":1774387776236,"pid":7,"hostname":"f10409d02a48","msg":"[SCHEDULER] Scheduler service initialized"}
+{"level":30,"time":1774387776238,"pid":7,"hostname":"f10409d02a48","msg":"[API_KEY] Initializing ApiKeyService"}
+{"level":30,"time":1774387776241,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] Initializing PlexServerService"}
+{"level":30,"time":1774387776245,"pid":7,"hostname":"f10409d02a48","msg":"[SONARR] Basic initialization only for Default Sonarr Instance (placeholder credentials)"}
+{"level":30,"time":1774387776247,"pid":7,"hostname":"f10409d02a48","msg":"[RADARR] Basic initialization only for Default Radarr Instance (placeholder credentials)"}
+{"level":30,"time":1774387776277,"pid":7,"hostname":"f10409d02a48","msg":"[CONTENT_ROUTER] Successfully loaded 9 router evaluators"}
+{"level":30,"time":1774387776277,"pid":7,"hostname":"f10409d02a48","msg":"Content router initialized with plugins: Conditional Router, Streaming Availability Router, Genre Router, Ratings Router, User Router, Year Router, Season Router, Language Router, Certification Router"}
+{"level":30,"time":1774387776278,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_LABEL_SYNC] Initializing PlexLabelSyncService"}
+{"level":30,"time":1774387776279,"pid":7,"hostname":"f10409d02a48","msg":"[DELETE_SYNC] Initializing Delete Sync Service"}
+{"level":30,"time":1774387776282,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SESSION_MONITOR] PlexSessionMonitorService initialized"}
+{"level":30,"time":1774387776283,"pid":7,"hostname":"f10409d02a48","msg":"[WATCHLIST_WORKFLOW] Initializing Watchlist Workflow Service"}
+{"level":30,"time":1774387779455,"pid":7,"hostname":"f10409d02a48","msg":"Anime database already contains 10529 entries"}
+{"level":30,"time":1774387779455,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] Initializing PlexServerService connections and users"}
+{"level":40,"time":1774387779456,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774387779456,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for user operations"}
+{"level":40,"time":1774387779456,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex users found during initialization"}
+{"level":40,"time":1774387779456,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for shared server operations"}
+{"level":40,"time":1774387779457,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No shared server info found during initialization"}
+{"level":30,"time":1774387779457,"pid":7,"hostname":"f10409d02a48","msg":"PlexServerService initialized successfully"}
+{"level":40,"time":1774387779457,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774387779457,"pid":7,"hostname":"f10409d02a48","msg":"[PLEX_SERVER] No Plex token available, skipping SSE connection"}
+{"level":30,"time":1774387779457,"pid":7,"hostname":"f10409d02a48","msg":"[NOTIFICATIONS] [PLEX_MOBILE] Plex Pass status not yet determined — Plex mobile notifications deferred"}
+{"level":30,"time":1774387779457,"pid":7,"hostname":"f10409d02a48","msg":"[NOTIFICATIONS] No Apprise URL configured, Apprise notifications will be disabled"}
+{"level":30,"time":1774387779466,"pid":7,"hostname":"f10409d02a48","msg":"[SCHEDULER] Scheduler ready: 7 jobs scheduled and active"}
+{"level":30,"time":1774387779478,"pid":7,"hostname":"f10409d02a48","msg":"Server listening at http://127.0.0.1:3003"}
+{"level":30,"time":1774387779479,"pid":7,"hostname":"f10409d02a48","msg":"Server listening at http://192.168.147.6:3003"}
+{"level":30,"time":1774388504856,"pid":7,"hostname":"f10409d02a48","msg":"SIGTERM received, server closing"}
+{"level":30,"time":1774388583193,"pid":6,"hostname":"a6ccaaa074e3","msg":"Using baseUrl: http://localhost for service connections"}
+{"level":30,"time":1774388583721,"pid":6,"hostname":"a6ccaaa074e3","msg":"[SCHEDULER] Scheduler service initialized"}
+{"level":30,"time":1774388583724,"pid":6,"hostname":"a6ccaaa074e3","msg":"[API_KEY] Initializing ApiKeyService"}
+{"level":30,"time":1774388583726,"pid":6,"hostname":"a6ccaaa074e3","msg":"[PLEX_SERVER] Initializing PlexServerService"}
+{"level":30,"time":1774388583729,"pid":6,"hostname":"a6ccaaa074e3","msg":"[SONARR] Basic initialization only for Default Sonarr Instance (placeholder credentials)"}
+{"level":30,"time":1774388583732,"pid":6,"hostname":"a6ccaaa074e3","msg":"[RADARR] Basic initialization only for Default Radarr Instance (placeholder credentials)"}
+{"level":30,"time":1774388583746,"pid":6,"hostname":"a6ccaaa074e3","msg":"[CONTENT_ROUTER] Successfully loaded 9 router evaluators"}
+{"level":30,"time":1774388583747,"pid":6,"hostname":"a6ccaaa074e3","msg":"Content router initialized with plugins: Conditional Router, Streaming Availability Router, Genre Router, Ratings Router, User Router, Year Router, Season Router, Language Router, Certification Router"}
+{"level":30,"time":1774388583748,"pid":6,"hostname":"a6ccaaa074e3","msg":"[PLEX_LABEL_SYNC] Initializing PlexLabelSyncService"}
+{"level":30,"time":1774388583748,"pid":6,"hostname":"a6ccaaa074e3","msg":"[DELETE_SYNC] Initializing Delete Sync Service"}
+{"level":30,"time":1774388583751,"pid":6,"hostname":"a6ccaaa074e3","msg":"[PLEX_SESSION_MONITOR] PlexSessionMonitorService initialized"}
+{"level":30,"time":1774388583752,"pid":6,"hostname":"a6ccaaa074e3","msg":"[WATCHLIST_WORKFLOW] Initializing Watchlist Workflow Service"}
+{"level":30,"time":1774388585655,"pid":6,"hostname":"a6ccaaa074e3","msg":"Anime database already contains 10529 entries"}
+{"level":30,"time":1774388585656,"pid":6,"hostname":"a6ccaaa074e3","msg":"[PLEX_SERVER] Initializing PlexServerService connections and users"}
+{"level":40,"time":1774388585656,"pid":6,"hostname":"a6ccaaa074e3","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774388585656,"pid":6,"hostname":"a6ccaaa074e3","msg":"[PLEX_SERVER] No Plex admin token available for user operations"}
+{"level":40,"time":1774388585656,"pid":6,"hostname":"a6ccaaa074e3","msg":"[PLEX_SERVER] No Plex users found during initialization"}
+{"level":40,"time":1774388585657,"pid":6,"hostname":"a6ccaaa074e3","msg":"[PLEX_SERVER] No Plex admin token available for shared server operations"}
+{"level":40,"time":1774388585657,"pid":6,"hostname":"a6ccaaa074e3","msg":"[PLEX_SERVER] No shared server info found during initialization"}
+{"level":30,"time":1774388585657,"pid":6,"hostname":"a6ccaaa074e3","msg":"PlexServerService initialized successfully"}
+{"level":40,"time":1774388585657,"pid":6,"hostname":"a6ccaaa074e3","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774388585657,"pid":6,"hostname":"a6ccaaa074e3","msg":"[PLEX_SERVER] No Plex token available, skipping SSE connection"}
+{"level":30,"time":1774388585658,"pid":6,"hostname":"a6ccaaa074e3","msg":"[NOTIFICATIONS] [PLEX_MOBILE] Plex Pass status not yet determined — Plex mobile notifications deferred"}
+{"level":30,"time":1774388585658,"pid":6,"hostname":"a6ccaaa074e3","msg":"[NOTIFICATIONS] No Apprise URL configured, Apprise notifications will be disabled"}
+{"level":30,"time":1774388585665,"pid":6,"hostname":"a6ccaaa074e3","msg":"[SCHEDULER] Scheduler ready: 7 jobs scheduled and active"}
+{"level":30,"time":1774388585678,"pid":6,"hostname":"a6ccaaa074e3","msg":"Server listening at http://127.0.0.1:3003"}
+{"level":30,"time":1774388585679,"pid":6,"hostname":"a6ccaaa074e3","msg":"Server listening at http://192.168.147.6:3003"}
+{"level":30,"time":1774389925849,"pid":6,"hostname":"a6ccaaa074e3","msg":"SIGTERM received, server closing"}
+{"level":30,"time":1774389928339,"pid":7,"hostname":"f4669682bbcb","msg":"Using baseUrl: http://localhost for service connections"}
+{"level":30,"time":1774389929039,"pid":7,"hostname":"f4669682bbcb","msg":"[SCHEDULER] Scheduler service initialized"}
+{"level":30,"time":1774389929041,"pid":7,"hostname":"f4669682bbcb","msg":"[API_KEY] Initializing ApiKeyService"}
+{"level":30,"time":1774389929044,"pid":7,"hostname":"f4669682bbcb","msg":"[PLEX_SERVER] Initializing PlexServerService"}
+{"level":30,"time":1774389929049,"pid":7,"hostname":"f4669682bbcb","msg":"[SONARR] Basic initialization only for Default Sonarr Instance (placeholder credentials)"}
+{"level":30,"time":1774389929051,"pid":7,"hostname":"f4669682bbcb","msg":"[RADARR] Basic initialization only for Default Radarr Instance (placeholder credentials)"}
+{"level":30,"time":1774389929096,"pid":7,"hostname":"f4669682bbcb","msg":"[CONTENT_ROUTER] Successfully loaded 9 router evaluators"}
+{"level":30,"time":1774389929097,"pid":7,"hostname":"f4669682bbcb","msg":"Content router initialized with plugins: Conditional Router, Streaming Availability Router, Genre Router, Ratings Router, User Router, Year Router, Season Router, Language Router, Certification Router"}
+{"level":30,"time":1774389929098,"pid":7,"hostname":"f4669682bbcb","msg":"[PLEX_LABEL_SYNC] Initializing PlexLabelSyncService"}
+{"level":30,"time":1774389929099,"pid":7,"hostname":"f4669682bbcb","msg":"[DELETE_SYNC] Initializing Delete Sync Service"}
+{"level":30,"time":1774389929100,"pid":7,"hostname":"f4669682bbcb","msg":"[PLEX_SESSION_MONITOR] PlexSessionMonitorService initialized"}
+{"level":30,"time":1774389929101,"pid":7,"hostname":"f4669682bbcb","msg":"[WATCHLIST_WORKFLOW] Initializing Watchlist Workflow Service"}
+{"level":30,"time":1774389931137,"pid":7,"hostname":"f4669682bbcb","msg":"Anime database already contains 10529 entries"}
+{"level":30,"time":1774389931137,"pid":7,"hostname":"f4669682bbcb","msg":"[PLEX_SERVER] Initializing PlexServerService connections and users"}
+{"level":40,"time":1774389931138,"pid":7,"hostname":"f4669682bbcb","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774389931138,"pid":7,"hostname":"f4669682bbcb","msg":"[PLEX_SERVER] No Plex admin token available for user operations"}
+{"level":40,"time":1774389931138,"pid":7,"hostname":"f4669682bbcb","msg":"[PLEX_SERVER] No Plex users found during initialization"}
+{"level":40,"time":1774389931139,"pid":7,"hostname":"f4669682bbcb","msg":"[PLEX_SERVER] No Plex admin token available for shared server operations"}
+{"level":40,"time":1774389931139,"pid":7,"hostname":"f4669682bbcb","msg":"[PLEX_SERVER] No shared server info found during initialization"}
+{"level":30,"time":1774389931139,"pid":7,"hostname":"f4669682bbcb","msg":"PlexServerService initialized successfully"}
+{"level":40,"time":1774389931139,"pid":7,"hostname":"f4669682bbcb","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774389931139,"pid":7,"hostname":"f4669682bbcb","msg":"[PLEX_SERVER] No Plex token available, skipping SSE connection"}
+{"level":30,"time":1774389931139,"pid":7,"hostname":"f4669682bbcb","msg":"[NOTIFICATIONS] [PLEX_MOBILE] Plex Pass status not yet determined — Plex mobile notifications deferred"}
+{"level":30,"time":1774389931140,"pid":7,"hostname":"f4669682bbcb","msg":"[NOTIFICATIONS] No Apprise URL configured, Apprise notifications will be disabled"}
+{"level":30,"time":1774389931148,"pid":7,"hostname":"f4669682bbcb","msg":"[SCHEDULER] Scheduler ready: 7 jobs scheduled and active"}
+{"level":30,"time":1774389931162,"pid":7,"hostname":"f4669682bbcb","msg":"Server listening at http://127.0.0.1:3003"}
+{"level":30,"time":1774389931162,"pid":7,"hostname":"f4669682bbcb","msg":"Server listening at http://192.168.148.6:3003"}
+{"level":30,"time":1774390446110,"pid":7,"hostname":"f4669682bbcb","msg":"SIGTERM received, server closing"}
+{"level":30,"time":1774390457985,"pid":7,"hostname":"02206c4869f2","msg":"Using baseUrl: http://localhost for service connections"}
+{"level":30,"time":1774390458450,"pid":7,"hostname":"02206c4869f2","msg":"[SCHEDULER] Scheduler service initialized"}
+{"level":30,"time":1774390458451,"pid":7,"hostname":"02206c4869f2","msg":"[API_KEY] Initializing ApiKeyService"}
+{"level":30,"time":1774390458452,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Initializing PlexServerService"}
+{"level":30,"time":1774390458453,"pid":7,"hostname":"02206c4869f2","msg":"[SONARR] Basic initialization only for Default Sonarr Instance (placeholder credentials)"}
+{"level":30,"time":1774390458455,"pid":7,"hostname":"02206c4869f2","msg":"[RADARR] Basic initialization only for Default Radarr Instance (placeholder credentials)"}
+{"level":30,"time":1774390458483,"pid":7,"hostname":"02206c4869f2","msg":"[CONTENT_ROUTER] Successfully loaded 9 router evaluators"}
+{"level":30,"time":1774390458483,"pid":7,"hostname":"02206c4869f2","msg":"Content router initialized with plugins: Conditional Router, Streaming Availability Router, Genre Router, Ratings Router, User Router, Year Router, Season Router, Language Router, Certification Router"}
+{"level":30,"time":1774390458484,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_LABEL_SYNC] Initializing PlexLabelSyncService"}
+{"level":30,"time":1774390458484,"pid":7,"hostname":"02206c4869f2","msg":"[DELETE_SYNC] Initializing Delete Sync Service"}
+{"level":30,"time":1774390458486,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SESSION_MONITOR] PlexSessionMonitorService initialized"}
+{"level":30,"time":1774390458487,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Initializing Watchlist Workflow Service"}
+{"level":30,"time":1774390460436,"pid":7,"hostname":"02206c4869f2","msg":"Anime database already contains 10529 entries"}
+{"level":30,"time":1774390460437,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Initializing PlexServerService connections and users"}
+{"level":40,"time":1774390460437,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774390460438,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] No Plex admin token available for user operations"}
+{"level":40,"time":1774390460438,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] No Plex users found during initialization"}
+{"level":40,"time":1774390460438,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] No Plex admin token available for shared server operations"}
+{"level":40,"time":1774390460438,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] No shared server info found during initialization"}
+{"level":30,"time":1774390460438,"pid":7,"hostname":"02206c4869f2","msg":"PlexServerService initialized successfully"}
+{"level":40,"time":1774390460439,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] No Plex admin token available for connection discovery"}
+{"level":40,"time":1774390460439,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] No Plex token available, skipping SSE connection"}
+{"level":30,"time":1774390460439,"pid":7,"hostname":"02206c4869f2","msg":"[NOTIFICATIONS] [PLEX_MOBILE] Plex Pass status not yet determined — Plex mobile notifications deferred"}
+{"level":30,"time":1774390460439,"pid":7,"hostname":"02206c4869f2","msg":"[NOTIFICATIONS] No Apprise URL configured, Apprise notifications will be disabled"}
+{"level":30,"time":1774390460448,"pid":7,"hostname":"02206c4869f2","msg":"[SCHEDULER] Scheduler ready: 7 jobs scheduled and active"}
+{"level":30,"time":1774390460463,"pid":7,"hostname":"02206c4869f2","msg":"Server listening at http://127.0.0.1:3003"}
+{"level":30,"time":1774390460463,"pid":7,"hostname":"02206c4869f2","msg":"Server listening at http://192.168.148.6:3003"}
+{"level":40,"time":1774392324054,"pid":7,"hostname":"02206c4869f2","reqId":"req-2k","err":{"message":"Invalid email or password.","name":"UnauthorizedError","status":401,"statusCode":401,"type":"Error"},"request":{"id":"req-2k","method":"POST","path":"/v1/users/login","route":"/v1/users/login","ip":"192.168.148.1"},"msg":"Authentication required"}
+{"level":30,"time":1774392360188,"pid":7,"hostname":"02206c4869f2","msg":"Plex server connection settings changed, clearing caches and reconnecting SSE"}
+{"level":50,"time":1774392360767,"pid":7,"hostname":"02206c4869f2","error":{"message":"Failed to fetch resources: 401 Unauthorized","name":"Error","type":"Error","stack":"Error: Failed to fetch resources: 401 Unauthorized\n    at getPlexServerConnectionInfo (/app/dist/services/plex-server.service.js:145:27)\n    at async getPlexServerUrl (/app/dist/services/plex-server.service.js:292:40)\n    at async connectSSE (/app/dist/services/plex-server.service.js:809:38)\n    at async <anonymous> (/app/dist/routes/v1/config/config.js:121:53)\n    at processTicksAndRejections (native:7:39)"},"msg":"[PLEX_SERVER] Error getting Plex server connection info:"}
+{"level":30,"time":1774392360773,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392360841,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392360841,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392360842,"pid":7,"hostname":"02206c4869f2","delayMs":1092,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":50,"time":1774392360986,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex ping failed with status 401: Unauthorized"}
+{"level":30,"time":1774392361496,"pid":7,"hostname":"02206c4869f2","msg":"[DATABASE] Set user ID 1 as the primary token user"}
+{"level":50,"time":1774392361814,"pid":7,"hostname":"02206c4869f2","error":{"message":"Plex API error: HTTP 401 - Unauthorized","name":"Error","type":"Error","stack":"Error: Plex API error: HTTP 401 - Unauthorized\n    at <anonymous> (/app/dist/services/plex-watchlist/api/graphql.js:75:23)\n    at async <anonymous> (/app/dist/services/plex-watchlist/fetching/watchlist-fetcher.js:21:44)\n    at async getSelfWatchlist (/app/dist/services/plex-watchlist.service.js:98:29)\n    at async <anonymous> (/app/dist/routes/v1/plex/self-watchlist-token.js:10:62)\n    at processTicksAndRejections (native:7:39)"},"start":0,"retryCount":0,"msg":"[PLEX_WATCHLIST] Error in getWatchlist"}
+{"level":50,"time":1774392361820,"pid":7,"hostname":"02206c4869f2","error":{"message":"Plex API error: HTTP 401 - Unauthorized","name":"Error","type":"Error","stack":"Error: Plex API error: HTTP 401 - Unauthorized\n    at <anonymous> (/app/dist/services/plex-watchlist/api/graphql.js:75:23)\n    at async <anonymous> (/app/dist/services/plex-watchlist/fetching/watchlist-fetcher.js:21:44)\n    at async getSelfWatchlist (/app/dist/services/plex-watchlist.service.js:98:29)\n    at async <anonymous> (/app/dist/routes/v1/plex/self-watchlist-token.js:10:62)\n    at processTicksAndRejections (native:7:39)"},"msg":"[PLEX_WATCHLIST] Error fetching watchlist for token"}
+{"level":30,"time":1774392361821,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Falling back to existing database items for user 1"}
+{"level":30,"time":1774392361823,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Successfully fell back to 0 existing database items for user 1"}
+{"level":30,"time":1774392361823,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Self watchlist fetched successfully with 0 total items"}
+{"level":30,"time":1774392361936,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392361938,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392361939,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392361939,"pid":7,"hostname":"02206c4869f2","delayMs":2256,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":40,"time":1774392362959,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774392362960,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774392362960,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":40,"time":1774392363429,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to generate an RSS feed: Unauthorized"}
+{"level":30,"time":1774392363430,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Generated watchlist RSS feed for self: None"}
+{"level":40,"time":1774392363505,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to generate an RSS feed: Unauthorized"}
+{"level":30,"time":1774392363506,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Generated watchlist RSS feed for friends: None"}
+{"level":40,"time":1774392363506,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Missing RSS URL. Are you an active Plex Pass user?"}
+{"level":40,"time":1774392363507,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Real-time RSS sync disabled"}
+{"level":50,"time":1774392363508,"pid":7,"hostname":"02206c4869f2","error":{"message":"Unable to fetch watchlist URLs","name":"Error","type":"Error","stack":"Error: Unable to fetch watchlist URLs\n    at generateAndSaveRssFeeds (/app/dist/services/plex-watchlist/orchestration/rss-processor.js:13:19)\n    at processTicksAndRejections (native:7:39)"},"route":"GET /v1/plex/generate-rss-feeds","msg":"Failed to generate RSS feeds"}
+{"level":50,"time":1774392363510,"pid":7,"hostname":"02206c4869f2","reqId":"req-3n","err":{"message":"Unable to fetch watchlist URLs","name":"InternalServerError","status":500,"statusCode":500,"type":"Error","stack":"InternalServerError: Unable to fetch watchlist URLs\n    at internalServerError (/app/node_modules/@fastify/sensible/lib/httpErrors.js:137:28)\n    at sensibleInternalServerError (/app/node_modules/@fastify/sensible/index.js:55:34)\n    at processTicksAndRejections (native:7:39)"},"request":{"id":"req-3n","method":"GET","path":"/v1/plex/generate-rss-feeds","route":"/v1/plex/generate-rss-feeds","ip":"192.168.148.1"},"msg":"Internal server error occurred"}
+{"level":30,"time":1774392364199,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392364202,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392364203,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392364203,"pid":7,"hostname":"02206c4869f2","delayMs":4677,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":40,"time":1774392365030,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friend requests: Unauthorized"}
+{"level":40,"time":1774392365038,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774392365038,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":50,"time":1774392365077,"pid":7,"hostname":"02206c4869f2","error":{"message":"Failed to fetch users: 401 Unauthorized","name":"Error","type":"Error","stack":"Error: Failed to fetch users: 401 Unauthorized\n    at getPlexUsers (/app/dist/services/plex-server.service.js:345:27)\n    at async getClassifiedUsers (/app/dist/services/plex-watchlist.service.js:216:85)\n    at async <anonymous> (/app/dist/routes/v1/plex/user-status.js:8:48)\n    at processTicksAndRejections (native:7:39)"},"msg":"[PLEX_SERVER] Error fetching Plex users:"}
+{"level":40,"time":1774392365078,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API failed - skipping classification to prevent misclassifying users"}
+{"level":30,"time":1774392368890,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392368935,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392368936,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392368936,"pid":7,"hostname":"02206c4869f2","delayMs":8331,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392377268,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392377269,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392377269,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392377269,"pid":7,"hostname":"02206c4869f2","delayMs":19945,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392397220,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392397248,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392397250,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392397250,"pid":7,"hostname":"02206c4869f2","delayMs":32290,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392429542,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392429562,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392429563,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392429563,"pid":7,"hostname":"02206c4869f2","delayMs":36801,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392466366,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392466571,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392466572,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392466572,"pid":7,"hostname":"02206c4869f2","delayMs":33371,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392499950,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392499954,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392499954,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392499954,"pid":7,"hostname":"02206c4869f2","delayMs":35300,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392535259,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392535287,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392535288,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392535288,"pid":7,"hostname":"02206c4869f2","delayMs":33109,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392568400,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392568412,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392568412,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392568412,"pid":7,"hostname":"02206c4869f2","delayMs":32836,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392601256,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392601292,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392601293,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392601293,"pid":7,"hostname":"02206c4869f2","delayMs":32229,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392633537,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392633549,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392633550,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392633550,"pid":7,"hostname":"02206c4869f2","delayMs":33928,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392654564,"pid":7,"hostname":"02206c4869f2","msg":"[RADARR] Credentials verified, attempting to setup webhook \"Pulsarr (localhost:3003)\" with URL for Radarr: http://localhost:3003/v1/notifications/webhook?instanceId=radarr7878"}
+{"level":50,"time":1774392654862,"pid":7,"hostname":"02206c4869f2","error":{"message":"Failed to create webhook: Radarr API error: Connection refused (localhost:3003)","name":"HttpError","status":500,"type":"Error","stack":"HttpError: Failed to create webhook: Radarr API error: Connection refused (localhost:3003)\n    at setupWebhook (/app/dist/services/radarr.service.js:250:31)\n    at processTicksAndRejections (native:7:39)"},"route":"PUT /v1/radarr/instances/:id","service":"radarr","instanceId":1,"msg":"Error updating instance"}
+{"level":40,"time":1774392654864,"pid":7,"hostname":"02206c4869f2","reqId":"req-4p","err":{"message":"Failed to create webhook: Connection refused (localhost:3003)","name":"BadRequestError","status":400,"statusCode":400,"type":"Error"},"request":{"id":"req-4p","method":"PUT","path":"/v1/radarr/instances/1","route":"/v1/radarr/instances/:id","ip":"192.168.148.1"},"msg":"Client error occurred"}
+{"level":30,"time":1774392667490,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392667498,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392667499,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392667500,"pid":7,"hostname":"02206c4869f2","delayMs":30596,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392693779,"pid":7,"hostname":"02206c4869f2","msg":"[RADARR] Credentials verified, attempting to setup webhook \"Pulsarr (host.docker.internal:3003)\" with URL for Radarr: http://host.docker.internal:3003/v1/notifications/webhook?instanceId=radarr7878"}
+{"level":30,"time":1774392693856,"pid":7,"hostname":"02206c4869f2","msg":"[RADARR] Successfully created Pulsarr webhook \"Pulsarr (host.docker.internal:3003)\" for Radarr: http://host.docker.internal:3003/v1/notifications/webhook?instanceId=radarr7878"}
+{"level":30,"time":1774392693860,"pid":7,"hostname":"02206c4869f2","msg":"[DATABASE] Radarr instance 1 updated"}
+{"level":30,"time":1774392698104,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392698107,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392698107,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392698108,"pid":7,"hostname":"02206c4869f2","delayMs":37028,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392708673,"pid":7,"hostname":"02206c4869f2","msg":"[DATABASE] Radarr instance 1 updated"}
+{"level":30,"time":1774392735138,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392735208,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392735209,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392735209,"pid":7,"hostname":"02206c4869f2","delayMs":34601,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392769811,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392769815,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392769816,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392769817,"pid":7,"hostname":"02206c4869f2","delayMs":32553,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392802374,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392802390,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392802391,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392802391,"pid":7,"hostname":"02206c4869f2","delayMs":34044,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392836449,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392836491,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392836492,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392836493,"pid":7,"hostname":"02206c4869f2","delayMs":33932,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392870427,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392870477,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392870477,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392870477,"pid":7,"hostname":"02206c4869f2","delayMs":34550,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392905045,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392905055,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392905055,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392905056,"pid":7,"hostname":"02206c4869f2","delayMs":30004,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392935071,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392935140,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392935141,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392935141,"pid":7,"hostname":"02206c4869f2","delayMs":31260,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392966409,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392966461,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392966462,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392966462,"pid":7,"hostname":"02206c4869f2","delayMs":30350,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774392996828,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774392996843,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774392996846,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774392996847,"pid":7,"hostname":"02206c4869f2","delayMs":30115,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393026966,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393027020,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393027021,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393027021,"pid":7,"hostname":"02206c4869f2","delayMs":36882,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393063907,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393063947,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393063948,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393063948,"pid":7,"hostname":"02206c4869f2","delayMs":33622,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393097580,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393097597,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393097598,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393097598,"pid":7,"hostname":"02206c4869f2","delayMs":36739,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393134338,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393134392,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393134393,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393134394,"pid":7,"hostname":"02206c4869f2","delayMs":32799,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393167207,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393167225,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393167225,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393167226,"pid":7,"hostname":"02206c4869f2","delayMs":36303,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393200016,"pid":7,"hostname":"02206c4869f2","msg":"[APPROVAL] Running scheduled job: approval-maintenance"}
+{"level":30,"time":1774393200019,"pid":7,"hostname":"02206c4869f2","msg":"[APPROVAL] Completed scheduled job: approval-maintenance"}
+{"level":30,"time":1774393203535,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393203549,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393203550,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393203550,"pid":7,"hostname":"02206c4869f2","delayMs":36326,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393239878,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393239920,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393239920,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393239921,"pid":7,"hostname":"02206c4869f2","delayMs":31373,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":50,"time":1774393266338,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex ping failed with status 401: Unauthorized"}
+{"level":30,"time":1774393266341,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Plex connection verified"}
+{"level":40,"time":1774393266886,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to generate an RSS feed: Unauthorized"}
+{"level":30,"time":1774393266886,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Generated watchlist RSS feed for self: None"}
+{"level":40,"time":1774393266944,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to generate an RSS feed: Unauthorized"}
+{"level":30,"time":1774393266945,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Generated watchlist RSS feed for friends: None"}
+{"level":40,"time":1774393266946,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Missing RSS URL. Are you an active Plex Pass user?"}
+{"level":40,"time":1774393266946,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Real-time RSS sync disabled"}
+{"level":40,"time":1774393266947,"pid":7,"hostname":"02206c4869f2","error":{"message":"Unable to fetch watchlist URLs","name":"Error","type":"Error","stack":"Error: Unable to fetch watchlist URLs\n    at generateAndSaveRssFeeds (/app/dist/services/plex-watchlist/orchestration/rss-processor.js:13:19)\n    at processTicksAndRejections (native:7:39)"},"msg":"[WATCHLIST_WORKFLOW] Failed to generate RSS feeds, falling back to manual sync"}
+{"level":30,"time":1774393266950,"pid":7,"hostname":"02206c4869f2","msg":"[SCHEDULER] Registered handler for new job: periodic-watchlist-reconciliation"}
+{"level":30,"time":1774393266956,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Periodic watchlist reconciliation job created (will be dynamically scheduled)"}
+{"level":30,"time":1774393266957,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Deferred routing queue started"}
+{"level":40,"time":1774393267156,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393267156,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393267157,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":40,"time":1774393267275,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":30,"time":1774393267277,"pid":7,"hostname":"02206c4869f2","friendCount":0,"msg":"[WATCHLIST_WORKFLOW] Watchlist baselines established for all users"}
+{"level":40,"time":1774393267332,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393267333,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393267333,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":30,"time":1774393267334,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Starting full reconciliation"}
+{"level":30,"time":1774393267335,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Refreshing watchlists"}
+{"level":40,"time":1774393267394,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393267395,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393267395,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":50,"time":1774393267602,"pid":7,"hostname":"02206c4869f2","error":{"message":"Plex API error: HTTP 401 - Unauthorized","name":"Error","type":"Error","stack":"Error: Plex API error: HTTP 401 - Unauthorized\n    at <anonymous> (/app/dist/services/plex-watchlist/api/graphql.js:75:23)\n    at async <anonymous> (/app/dist/services/plex-watchlist/fetching/watchlist-fetcher.js:21:44)\n    at async getSelfWatchlist (/app/dist/services/plex-watchlist.service.js:98:29)\n    at async fetchWatchlists (/app/dist/services/watchlist-workflow/fetching/watchlist-fetcher.js:6:23)\n    at processTicksAndRejections (native:7:39)"},"start":0,"retryCount":0,"msg":"[PLEX_WATCHLIST] Error in getWatchlist"}
+{"level":50,"time":1774393267606,"pid":7,"hostname":"02206c4869f2","error":{"message":"Plex API error: HTTP 401 - Unauthorized","name":"Error","type":"Error","stack":"Error: Plex API error: HTTP 401 - Unauthorized\n    at <anonymous> (/app/dist/services/plex-watchlist/api/graphql.js:75:23)\n    at async <anonymous> (/app/dist/services/plex-watchlist/fetching/watchlist-fetcher.js:21:44)\n    at async getSelfWatchlist (/app/dist/services/plex-watchlist.service.js:98:29)\n    at async fetchWatchlists (/app/dist/services/watchlist-workflow/fetching/watchlist-fetcher.js:6:23)\n    at processTicksAndRejections (native:7:39)"},"msg":"[PLEX_WATCHLIST] Error fetching watchlist for token"}
+{"level":30,"time":1774393267607,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Falling back to existing database items for user 1"}
+{"level":30,"time":1774393267608,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Successfully fell back to 0 existing database items for user 1"}
+{"level":30,"time":1774393267608,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Self watchlist fetched successfully with 0 total items"}
+{"level":30,"time":1774393267613,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Watchlists refreshed successfully"}
+{"level":30,"time":1774393267621,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Performing watchlist item sync"}
+{"level":40,"time":1774393267626,"pid":7,"hostname":"02206c4869f2","instanceId":1,"error":{"message":"Unable to connect. Is the computer able to access the url?","type":"StringError"},"msg":"[SONARR_MANAGER] Sonarr instance unhealthy"}
+{"level":50,"time":1774393267640,"pid":7,"hostname":"02206c4869f2","sonarrUnavailable":[1],"radarrUnavailable":[],"msg":"[WATCHLIST_WORKFLOW] Some instances unavailable, aborting reconciliation to prevent incorrect routing"}
+{"level":40,"time":1774393267791,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":30,"time":1774393267792,"pid":7,"hostname":"02206c4869f2","friendCount":0,"msg":"[WATCHLIST_WORKFLOW] Watchlist baselines established for all users"}
+{"level":30,"time":1774393267793,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Full reconciliation completed"}
+{"level":30,"time":1774393267800,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Scheduled next periodic reconciliation in 120 minutes"}
+{"level":30,"time":1774393267801,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Watchlist workflow running in ETag mode (5-minute staggered polling, 2-hour full reconciliation)"}
+{"level":40,"time":1774393267854,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393267856,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393267856,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":30,"time":1774393267857,"pid":7,"hostname":"02206c4869f2","userCount":1,"msg":"[WATCHLIST_WORKFLOW] Starting staggered ETag polling (5-minute cycles)"}
+{"level":40,"time":1774393268037,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393268038,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393268038,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":30,"time":1774393271296,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393271317,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393271318,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393271318,"pid":7,"hostname":"02206c4869f2","delayMs":37079,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393308398,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393308410,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393308411,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393308411,"pid":7,"hostname":"02206c4869f2","delayMs":31834,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393340246,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393340255,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393340256,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393340256,"pid":7,"hostname":"02206c4869f2","delayMs":30131,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393353909,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Stopping Watchlist workflow"}
+{"level":30,"time":1774393353916,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Found existing periodic reconciliation job from previous run, cleaning up"}
+{"level":30,"time":1774393353920,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Successfully cleaned up existing periodic reconciliation job"}
+{"level":30,"time":1774393353921,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Deferred routing queue stopped"}
+{"level":50,"time":1774393358532,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex ping failed with status 401: Unauthorized"}
+{"level":30,"time":1774393358550,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Plex connection verified"}
+{"level":40,"time":1774393358642,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to generate an RSS feed: Unauthorized"}
+{"level":30,"time":1774393358642,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Generated watchlist RSS feed for self: None"}
+{"level":40,"time":1774393358702,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to generate an RSS feed: Unauthorized"}
+{"level":30,"time":1774393358702,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Generated watchlist RSS feed for friends: None"}
+{"level":40,"time":1774393358702,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Missing RSS URL. Are you an active Plex Pass user?"}
+{"level":40,"time":1774393358702,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Real-time RSS sync disabled"}
+{"level":40,"time":1774393358703,"pid":7,"hostname":"02206c4869f2","error":{"message":"Unable to fetch watchlist URLs","name":"Error","type":"Error","stack":"Error: Unable to fetch watchlist URLs\n    at generateAndSaveRssFeeds (/app/dist/services/plex-watchlist/orchestration/rss-processor.js:13:19)\n    at processTicksAndRejections (native:7:39)"},"msg":"[WATCHLIST_WORKFLOW] Failed to generate RSS feeds, falling back to manual sync"}
+{"level":30,"time":1774393358721,"pid":7,"hostname":"02206c4869f2","msg":"[SCHEDULER] Registered handler for new job: periodic-watchlist-reconciliation"}
+{"level":30,"time":1774393358724,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Periodic watchlist reconciliation job created (will be dynamically scheduled)"}
+{"level":30,"time":1774393358725,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Deferred routing queue started"}
+{"level":40,"time":1774393359209,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393359210,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393359210,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":40,"time":1774393359357,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":30,"time":1774393359360,"pid":7,"hostname":"02206c4869f2","friendCount":0,"msg":"[WATCHLIST_WORKFLOW] Watchlist baselines established for all users"}
+{"level":40,"time":1774393359427,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393359428,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393359428,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":30,"time":1774393359428,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Starting full reconciliation"}
+{"level":30,"time":1774393359428,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Refreshing watchlists"}
+{"level":40,"time":1774393359550,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393359551,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393359551,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":50,"time":1774393360304,"pid":7,"hostname":"02206c4869f2","error":{"message":"Plex API error: HTTP 401 - Unauthorized","name":"Error","type":"Error","stack":"Error: Plex API error: HTTP 401 - Unauthorized\n    at <anonymous> (/app/dist/services/plex-watchlist/api/graphql.js:75:23)\n    at async <anonymous> (/app/dist/services/plex-watchlist/fetching/watchlist-fetcher.js:21:44)\n    at async getSelfWatchlist (/app/dist/services/plex-watchlist.service.js:98:29)\n    at async fetchWatchlists (/app/dist/services/watchlist-workflow/fetching/watchlist-fetcher.js:6:23)\n    at processTicksAndRejections (native:7:39)"},"start":0,"retryCount":0,"msg":"[PLEX_WATCHLIST] Error in getWatchlist"}
+{"level":50,"time":1774393360306,"pid":7,"hostname":"02206c4869f2","error":{"message":"Plex API error: HTTP 401 - Unauthorized","name":"Error","type":"Error","stack":"Error: Plex API error: HTTP 401 - Unauthorized\n    at <anonymous> (/app/dist/services/plex-watchlist/api/graphql.js:75:23)\n    at async <anonymous> (/app/dist/services/plex-watchlist/fetching/watchlist-fetcher.js:21:44)\n    at async getSelfWatchlist (/app/dist/services/plex-watchlist.service.js:98:29)\n    at async fetchWatchlists (/app/dist/services/watchlist-workflow/fetching/watchlist-fetcher.js:6:23)\n    at processTicksAndRejections (native:7:39)"},"msg":"[PLEX_WATCHLIST] Error fetching watchlist for token"}
+{"level":30,"time":1774393360306,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Falling back to existing database items for user 1"}
+{"level":30,"time":1774393360309,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Successfully fell back to 0 existing database items for user 1"}
+{"level":30,"time":1774393360310,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Self watchlist fetched successfully with 0 total items"}
+{"level":30,"time":1774393360311,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Watchlists refreshed successfully"}
+{"level":30,"time":1774393360312,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Performing watchlist item sync"}
+{"level":40,"time":1774393360314,"pid":7,"hostname":"02206c4869f2","instanceId":1,"error":{"message":"Unable to connect. Is the computer able to access the url?","type":"StringError"},"msg":"[SONARR_MANAGER] Sonarr instance unhealthy"}
+{"level":50,"time":1774393360467,"pid":7,"hostname":"02206c4869f2","sonarrUnavailable":[1],"radarrUnavailable":[],"msg":"[WATCHLIST_WORKFLOW] Some instances unavailable, aborting reconciliation to prevent incorrect routing"}
+{"level":40,"time":1774393360756,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":30,"time":1774393360757,"pid":7,"hostname":"02206c4869f2","friendCount":0,"msg":"[WATCHLIST_WORKFLOW] Watchlist baselines established for all users"}
+{"level":30,"time":1774393360758,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Full reconciliation completed"}
+{"level":30,"time":1774393360762,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Scheduled next periodic reconciliation in 120 minutes"}
+{"level":30,"time":1774393360762,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Watchlist workflow running in ETag mode (5-minute staggered polling, 2-hour full reconciliation)"}
+{"level":30,"time":1774393360770,"pid":7,"hostname":"02206c4869f2","msg":"Config is now ready, resolving waitForConfig promise"}
+{"level":30,"time":1774393360771,"pid":7,"hostname":"02206c4869f2","msg":"Config ready, but workflow is already running. Skipping auto-start."}
+{"level":30,"time":1774393360771,"pid":7,"hostname":"02206c4869f2","msg":"Updated config _isReady to true"}
+{"level":40,"time":1774393360827,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393360828,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393360829,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":30,"time":1774393360829,"pid":7,"hostname":"02206c4869f2","userCount":1,"msg":"[WATCHLIST_WORKFLOW] Starting staggered ETag polling (5-minute cycles)"}
+{"level":40,"time":1774393360931,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393360931,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393360931,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":30,"time":1774393370389,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393370400,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393370401,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393370401,"pid":7,"hostname":"02206c4869f2","delayMs":35034,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393405439,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393405443,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393405444,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393405444,"pid":7,"hostname":"02206c4869f2","delayMs":36231,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393432368,"pid":7,"hostname":"02206c4869f2","msg":"[SONARR] Credentials verified, attempting to setup webhook \"Pulsarr (host.docker.internal:3003)\" with URL for Sonarr: http://host.docker.internal:3003/v1/notifications/webhook?instanceId=sonarr8989"}
+{"level":30,"time":1774393432591,"pid":7,"hostname":"02206c4869f2","msg":"[SONARR] Successfully created Pulsarr webhook \"Pulsarr (host.docker.internal:3003)\" for Sonarr: http://host.docker.internal:3003/v1/notifications/webhook?instanceId=sonarr8989"}
+{"level":30,"time":1774393432596,"pid":7,"hostname":"02206c4869f2","msg":"[DATABASE] Sonarr instance 1 updated"}
+{"level":30,"time":1774393441675,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393441684,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393441685,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393441685,"pid":7,"hostname":"02206c4869f2","delayMs":36275,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":40,"time":1774393459408,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393459410,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393459499,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friend requests: Unauthorized"}
+{"level":50,"time":1774393459920,"pid":7,"hostname":"02206c4869f2","error":{"message":"Failed to fetch users: 401 Unauthorized","name":"Error","type":"Error","stack":"Error: Failed to fetch users: 401 Unauthorized\n    at getPlexUsers (/app/dist/services/plex-server.service.js:345:27)\n    at async getClassifiedUsers (/app/dist/services/plex-watchlist.service.js:216:85)\n    at async <anonymous> (/app/dist/routes/v1/plex/user-status.js:8:48)\n    at processTicksAndRejections (native:7:39)"},"msg":"[PLEX_SERVER] Error fetching Plex users:"}
+{"level":40,"time":1774393459932,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API failed - skipping classification to prevent misclassifying users"}
+{"level":30,"time":1774393477966,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393477973,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393477973,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393477973,"pid":7,"hostname":"02206c4869f2","delayMs":33152,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393511129,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393511158,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393511159,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393511159,"pid":7,"hostname":"02206c4869f2","delayMs":32169,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":40,"time":1774393520923,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":40,"time":1774393521209,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393521210,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393521210,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":30,"time":1774393543333,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393543355,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393543356,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393543356,"pid":7,"hostname":"02206c4869f2","delayMs":35982,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393579341,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393579372,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393579373,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393579373,"pid":7,"hostname":"02206c4869f2","delayMs":30509,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393609887,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393609893,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393609893,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393609894,"pid":7,"hostname":"02206c4869f2","delayMs":32004,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393641904,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393641937,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393641937,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393641938,"pid":7,"hostname":"02206c4869f2","delayMs":32590,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393674528,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393674558,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393674559,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393674560,"pid":7,"hostname":"02206c4869f2","delayMs":33136,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":40,"time":1774393680581,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":40,"time":1774393680970,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393680972,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393680973,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":30,"time":1774393707704,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393707711,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393707712,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393707712,"pid":7,"hostname":"02206c4869f2","delayMs":36162,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393743881,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393743890,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393743891,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393743891,"pid":7,"hostname":"02206c4869f2","delayMs":33472,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393777365,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393777383,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393777384,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393777384,"pid":7,"hostname":"02206c4869f2","delayMs":34409,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393811796,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393811883,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393811883,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393811883,"pid":7,"hostname":"02206c4869f2","delayMs":32084,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":40,"time":1774393822455,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393822456,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393822456,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":50,"time":1774393823182,"pid":7,"hostname":"02206c4869f2","error":{"message":"Plex API error: HTTP 401 - Unauthorized","name":"Error","type":"Error","stack":"Error: Plex API error: HTTP 401 - Unauthorized\n    at <anonymous> (/app/dist/services/plex-watchlist/api/graphql.js:75:23)\n    at async <anonymous> (/app/dist/services/plex-watchlist/fetching/watchlist-fetcher.js:21:44)\n    at async getSelfWatchlist (/app/dist/services/plex-watchlist.service.js:98:29)\n    at async <anonymous> (/app/dist/routes/v1/plex/self-watchlist-token.js:10:62)\n    at processTicksAndRejections (native:7:39)"},"start":0,"retryCount":0,"msg":"[PLEX_WATCHLIST] Error in getWatchlist"}
+{"level":50,"time":1774393823197,"pid":7,"hostname":"02206c4869f2","error":{"message":"Plex API error: HTTP 401 - Unauthorized","name":"Error","type":"Error","stack":"Error: Plex API error: HTTP 401 - Unauthorized\n    at <anonymous> (/app/dist/services/plex-watchlist/api/graphql.js:75:23)\n    at async <anonymous> (/app/dist/services/plex-watchlist/fetching/watchlist-fetcher.js:21:44)\n    at async getSelfWatchlist (/app/dist/services/plex-watchlist.service.js:98:29)\n    at async <anonymous> (/app/dist/routes/v1/plex/self-watchlist-token.js:10:62)\n    at processTicksAndRejections (native:7:39)"},"msg":"[PLEX_WATCHLIST] Error fetching watchlist for token"}
+{"level":30,"time":1774393823198,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Falling back to existing database items for user 1"}
+{"level":30,"time":1774393823199,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Successfully fell back to 0 existing database items for user 1"}
+{"level":30,"time":1774393823199,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Self watchlist fetched successfully with 0 total items"}
+{"level":30,"time":1774393843969,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393843980,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393843980,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393843981,"pid":7,"hostname":"02206c4869f2","delayMs":34181,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":40,"time":1774393846070,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":40,"time":1774393846178,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393846181,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393846182,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":30,"time":1774393878162,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393878181,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393878182,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393878182,"pid":7,"hostname":"02206c4869f2","delayMs":32544,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393910734,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393910762,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393910763,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393910763,"pid":7,"hostname":"02206c4869f2","delayMs":37362,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393948132,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393948171,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393948174,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393948174,"pid":7,"hostname":"02206c4869f2","delayMs":37077,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774393985255,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774393985328,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774393985328,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774393985332,"pid":7,"hostname":"02206c4869f2","delayMs":32368,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":40,"time":1774393999106,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":40,"time":1774393999404,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774393999414,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774393999414,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":40,"time":1774394011405,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to fetch friends from Plex: Unauthorized"}
+{"level":50,"time":1774394011406,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Failed to fetch friends from any token"}
+{"level":40,"time":1774394011407,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Friend API completely failed - skipping cleanup to prevent data loss"}
+{"level":50,"time":1774394012076,"pid":7,"hostname":"02206c4869f2","error":{"message":"Plex API error: HTTP 401 - Unauthorized","name":"Error","type":"Error","stack":"Error: Plex API error: HTTP 401 - Unauthorized\n    at <anonymous> (/app/dist/services/plex-watchlist/api/graphql.js:75:23)\n    at async <anonymous> (/app/dist/services/plex-watchlist/fetching/watchlist-fetcher.js:21:44)\n    at async getSelfWatchlist (/app/dist/services/plex-watchlist.service.js:98:29)\n    at async <anonymous> (/app/dist/routes/v1/plex/self-watchlist-token.js:10:62)\n    at processTicksAndRejections (native:7:39)"},"start":0,"retryCount":0,"msg":"[PLEX_WATCHLIST] Error in getWatchlist"}
+{"level":50,"time":1774394012079,"pid":7,"hostname":"02206c4869f2","error":{"message":"Plex API error: HTTP 401 - Unauthorized","name":"Error","type":"Error","stack":"Error: Plex API error: HTTP 401 - Unauthorized\n    at <anonymous> (/app/dist/services/plex-watchlist/api/graphql.js:75:23)\n    at async <anonymous> (/app/dist/services/plex-watchlist/fetching/watchlist-fetcher.js:21:44)\n    at async getSelfWatchlist (/app/dist/services/plex-watchlist.service.js:98:29)\n    at async <anonymous> (/app/dist/routes/v1/plex/self-watchlist-token.js:10:62)\n    at processTicksAndRejections (native:7:39)"},"msg":"[PLEX_WATCHLIST] Error fetching watchlist for token"}
+{"level":30,"time":1774394012079,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Falling back to existing database items for user 1"}
+{"level":30,"time":1774394012080,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Successfully fell back to 0 existing database items for user 1"}
+{"level":30,"time":1774394012081,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Self watchlist fetched successfully with 0 total items"}
+{"level":30,"time":1774394017711,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":40,"time":1774394017722,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection error"}
+{"level":40,"time":1774394017722,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE disconnected - polling continues as fallback"}
+{"level":30,"time":1774394017722,"pid":7,"hostname":"02206c4869f2","delayMs":36749,"msg":"[PLEX_SERVER] Scheduling SSE reconnect"}
+{"level":30,"time":1774394020937,"pid":7,"hostname":"02206c4869f2","pinId":1745616112,"clientId":"pulsarr-3c81e1ad","msg":"Generated Plex PIN for authentication"}
+{"level":30,"time":1774394036290,"pid":7,"hostname":"02206c4869f2","pinId":1745616112,"msg":"Plex PIN authorized successfully"}
+{"level":30,"time":1774394036363,"pid":7,"hostname":"02206c4869f2","msg":"Plex server connection settings changed, clearing caches and reconnecting SSE"}
+{"level":30,"time":1774394037875,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Filtered to 2 reachable connections (0 unreachable)"}
+{"level":30,"time":1774394037876,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Found 2 Plex server connections (2 local, 0 relay)"}
+{"level":30,"time":1774394037879,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] Opening SSE connection to Plex"}
+{"level":30,"time":1774394037901,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connection to Plex established"}
+{"level":30,"time":1774394037902,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_SERVER] SSE connected - reconciling with live sessions"}
+{"level":40,"time":1774394063547,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":30,"time":1774394063853,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":30,"time":1774394064116,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Self watchlist fetched successfully with 2 total items"}
+{"level":30,"time":1774394064902,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":30,"time":1774394117985,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Stopping Watchlist workflow"}
+{"level":30,"time":1774394117989,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Found existing periodic reconciliation job from previous run, cleaning up"}
+{"level":30,"time":1774394117995,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Successfully cleaned up existing periodic reconciliation job"}
+{"level":30,"time":1774394117996,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Deferred routing queue stopped"}
+{"level":30,"time":1774394119952,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Successfully validated Plex token"}
+{"level":30,"time":1774394119955,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Plex connection verified"}
+{"level":40,"time":1774394120170,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to generate an RSS feed: Unauthorized"}
+{"level":30,"time":1774394120171,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Generated watchlist RSS feed for self: None"}
+{"level":40,"time":1774394120229,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Unable to generate an RSS feed: Unauthorized"}
+{"level":30,"time":1774394120230,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Generated watchlist RSS feed for friends: None"}
+{"level":40,"time":1774394120230,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Missing RSS URL. Are you an active Plex Pass user?"}
+{"level":40,"time":1774394120231,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Real-time RSS sync disabled"}
+{"level":40,"time":1774394120231,"pid":7,"hostname":"02206c4869f2","error":{"message":"Unable to fetch watchlist URLs","name":"Error","type":"Error","stack":"Error: Unable to fetch watchlist URLs\n    at generateAndSaveRssFeeds (/app/dist/services/plex-watchlist/orchestration/rss-processor.js:13:19)\n    at processTicksAndRejections (native:7:39)"},"msg":"[WATCHLIST_WORKFLOW] Failed to generate RSS feeds, falling back to manual sync"}
+{"level":30,"time":1774394120239,"pid":7,"hostname":"02206c4869f2","msg":"[SCHEDULER] Registered handler for new job: periodic-watchlist-reconciliation"}
+{"level":30,"time":1774394120245,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Periodic watchlist reconciliation job created (will be dynamically scheduled)"}
+{"level":30,"time":1774394120245,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Deferred routing queue started"}
+{"level":40,"time":1774394120382,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":30,"time":1774394120696,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":40,"time":1774394120768,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":30,"time":1774394120770,"pid":7,"hostname":"02206c4869f2","friendCount":0,"msg":"[WATCHLIST_WORKFLOW] Watchlist baselines established for all users"}
+{"level":40,"time":1774394120908,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":30,"time":1774394121649,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":30,"time":1774394121650,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Starting full reconciliation"}
+{"level":30,"time":1774394121650,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Refreshing watchlists"}
+{"level":40,"time":1774394121937,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":30,"time":1774394122027,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":30,"time":1774394122109,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Self watchlist fetched successfully with 2 total items"}
+{"level":30,"time":1774394122516,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":30,"time":1774394122520,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Watchlists refreshed successfully"}
+{"level":30,"time":1774394122521,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Performing watchlist item sync"}
+{"level":30,"time":1774394122727,"pid":7,"hostname":"02206c4869f2","title":"Torrente 5: Operation Eurovegas","contentType":"movie","syncing":false,"userId":1,"userName":"oscaarp","msg":"[CONTENT_ROUTER] Routing movie \"Torrente 5: Operation Eurovegas\""}
+{"level":30,"time":1774394122728,"pid":7,"hostname":"02206c4869f2","title":"Sundays","contentType":"movie","syncing":false,"userId":1,"userName":"oscaarp","msg":"[CONTENT_ROUTER] Routing movie \"Sundays\""}
+{"level":30,"time":1774394122731,"pid":7,"hostname":"02206c4869f2","title":"Torrente 5: Operation Eurovegas","contentType":"movie","msg":"[CONTENT_ROUTER] No routing rules exist, using default routing for \"Torrente 5: Operation Eurovegas\""}
+{"level":30,"time":1774394122731,"pid":7,"hostname":"02206c4869f2","title":"Sundays","contentType":"movie","msg":"[CONTENT_ROUTER] No routing rules exist, using default routing for \"Sundays\""}
+{"level":30,"time":1774394123153,"pid":7,"hostname":"02206c4869f2","title":"Sundays","qualityProfileId":4,"rootFolder":"/movies","searchOnAdd":true,"minimumAvailability":"released","monitor":"movieOnly","monitored":true,"msg":"[RADARR] Sent Sundays to Radarr"}
+{"level":30,"time":1774394123174,"pid":7,"hostname":"02206c4869f2","msg":"[CONTENT_ROUTER] Created auto-approval tracking record for \"Sundays\" (request ID: 1)"}
+{"level":30,"time":1774394123180,"pid":7,"hostname":"02206c4869f2","title":"Torrente 5: Operation Eurovegas","qualityProfileId":4,"rootFolder":"/movies","searchOnAdd":true,"minimumAvailability":"released","monitor":"movieOnly","monitored":true,"msg":"[RADARR] Sent Torrente 5: Operation Eurovegas to Radarr"}
+{"level":30,"time":1774394123195,"pid":7,"hostname":"02206c4869f2","msg":"[CONTENT_ROUTER] Created auto-approval tracking record for \"Torrente 5: Operation Eurovegas\" (request ID: 2)"}
+{"level":30,"time":1774394123197,"pid":7,"hostname":"02206c4869f2","added":{"shows":0,"movies":2},"unmatched":{"shows":0,"movies":2},"skippedDueToUserSetting":0,"skippedDueToMissingIds":0,"skippedDueToWatchlistCap":0,"msg":"[WATCHLIST_WORKFLOW] Watchlist sync completed"}
+{"level":40,"time":1774394123326,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":30,"time":1774394123328,"pid":7,"hostname":"02206c4869f2","friendCount":0,"msg":"[WATCHLIST_WORKFLOW] Watchlist baselines established for all users"}
+{"level":30,"time":1774394123330,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Full reconciliation completed"}
+{"level":30,"time":1774394123349,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Scheduled next periodic reconciliation in 120 minutes"}
+{"level":30,"time":1774394123351,"pid":7,"hostname":"02206c4869f2","msg":"[WATCHLIST_WORKFLOW] Watchlist workflow running in ETag mode (5-minute staggered polling, 2-hour full reconciliation)"}
+{"level":30,"time":1774394123367,"pid":7,"hostname":"02206c4869f2","msg":"Updated config _isReady to true"}
+{"level":40,"time":1774394123637,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":30,"time":1774394123866,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":30,"time":1774394123871,"pid":7,"hostname":"02206c4869f2","userCount":1,"msg":"[WATCHLIST_WORKFLOW] Starting staggered ETag polling (5-minute cycles)"}
+{"level":40,"time":1774394124074,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":30,"time":1774394124466,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":40,"time":1774394141525,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":40,"time":1774394270910,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":40,"time":1774394271047,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":30,"time":1774394272330,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":30,"time":1774394365029,"pid":7,"hostname":"02206c4869f2","instanceName":"Radarr","eventType":"unknown","contentTitle":"Spider-Man: Into the Spider-Verse","reqId":"req-by","msg":"Webhook received and processing"}
+{"level":30,"time":1774394365076,"pid":7,"hostname":"02206c4869f2","title":"Spider-Man: Into the Spider-Verse","tmdbId":324857,"instanceName":"Radarr Instance 1","msg":"[WEBHOOK_QUEUE] Movie not in watchlist yet, queuing webhook for later processing"}
+{"level":40,"time":1774394408868,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":40,"time":1774394409076,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":30,"time":1774394409868,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":40,"time":1774394561494,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":40,"time":1774394561657,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":30,"time":1774394562419,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":40,"time":1774394698895,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":40,"time":1774394699053,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":30,"time":1774394700093,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}
+{"level":40,"time":1774394842580,"pid":7,"hostname":"02206c4869f2","userId":1,"status":401,"msg":"[WATCHLIST_WORKFLOW] Failed to establish primary baseline"}
+{"level":40,"time":1774394842722,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] No friends found for Plex token"}
+{"level":30,"time":1774394843421,"pid":7,"hostname":"02206c4869f2","msg":"[PLEX_WATCHLIST] Plex Pass status: not detected"}

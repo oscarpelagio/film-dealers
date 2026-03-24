@@ -1,0 +1,61 @@
+Mar 25, 2026 00:18:54.395 [281473045970424] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
+Mar 25, 2026 00:18:54.396 [281473045970424] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1, language: en-US
+Mar 25, 2026 00:18:54.398 [281473045970424] INFO - Processor: 8-core Apple Swift
+Mar 25, 2026 00:18:54.398 [281473045970424] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 3
+Mar 25, 2026 00:18:54.400 [281473141862456] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Mar 25, 2026 00:18:54.617 [281473141862456] DEBUG - Analyzing media parts for item 3 (Spider-Man: un nuevo universo): 5
+Mar 25, 2026 00:18:54.633 [281473141862456] DEBUG - Updating part with ID=5 [/movies/Spider-Man - Into the Spider-Verse (2018)/Spider-Man - Into the Spider-Verse (2018) Bluray-2160p.mkv]
+Mar 25, 2026 00:18:54.634 [281473141862456] DEBUG - Part hashes for media item 5 have changed.
+Mar 25, 2026 00:18:54.634 [281473141862456] DEBUG - [ID 5] Media part analysis: /movies/Spider-Man - Into the Spider-Verse (2018)/Spider-Man - Into the Spider-Verse (2018) Bluray-2160p.mkv
+Mar 25, 2026 00:18:54.635 [281473141862456] DEBUG - [MI] Opening input file: "/movies/Spider-Man - Into the Spider-Verse (2018)/Spider-Man - Into the Spider-Verse (2018) Bluray-2160p.mkv"
+Mar 25, 2026 00:18:54.653 [281473141862456] DEBUG - [FFMPEG] - Opening '/movies/Spider-Man - Into the Spider-Verse (2018)/Spider-Man - Into the Spider-Verse (2018) Bluray-2160p.mkv' for reading
+Mar 25, 2026 00:18:54.653 [281473141862456] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Mar 25, 2026 00:18:54.685 [281473141862456] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Mar 25, 2026 00:18:54.687 [281473141862456] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Mar 25, 2026 00:18:54.687 [281473141862456] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Mar 25, 2026 00:18:54.687 [281473141862456] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Mar 25, 2026 00:18:54.687 [281473141862456] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Mar 25, 2026 00:18:54.687 [281473141862456] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Mar 25, 2026 00:18:54.687 [281473141862456] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Mar 25, 2026 00:18:54.687 [281473141862456] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Mar 25, 2026 00:18:54.687 [281473141862456] INFO - CodecManager: obtaining decoder 'hevc'
+Mar 25, 2026 00:18:54.688 [281473141862456] DEBUG - [HCl#1] HTTP requesting GET https://plex.tv/api/codecs/hevc_decoder?build=linux-aarch64-standard&deviceId=d0aff83c-a0b4-4656-baad-a8046b75dd5b&oldestPreviousVersion=1%2E43%2E0%2E10492-121068a07&version=74455c4-a119aa85fdef32b7dbfbf8a2
+Mar 25, 2026 00:18:55.151 [281473017540088] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.5s) 200 response from GET https://plex.tv/api/codecs/hevc_decoder?build=linux-aarch64-standard&deviceId=d0aff83c-a0b4-4656-baad-a8046b75dd5b&oldestPreviousVersion=1%2E43%2E0%2E10492-121068a07&version=74455c4-a119aa85fdef32b7dbfbf8a2
+Mar 25, 2026 00:18:55.152 [281473015741944] DEBUG - [GetFile/HCl#2] HTTP requesting GET https://downloads.plex.tv/codecs/74455c4-a119aa85fdef32b7dbfbf8a2/linux-aarch64-standard/libhevc_decoder.so
+Mar 25, 2026 00:18:55.369 [281473017540088] DEBUG - [HttpClient/HCl#2] HTTP/2.0 (0.2s) 200 response from GET https://downloads.plex.tv/codecs/74455c4-a119aa85fdef32b7dbfbf8a2/linux-aarch64-standard/libhevc_decoder.so
+Mar 25, 2026 00:18:55.372 [281473141862456] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 4006 bytes read:32768 seeks:0 nb_streams:7
+Mar 25, 2026 00:18:55.381 [281473141862456] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Mar 25, 2026 00:18:55.389 [281473141862456] DEBUG - [FFMPEG] - Decoding VPS
+Mar 25, 2026 00:18:55.390 [281473141862456] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Mar 25, 2026 00:18:55.390 [281473141862456] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Mar 25, 2026 00:18:55.390 [281473141862456] DEBUG - [FFMPEG] - Decoding SPS
+Mar 25, 2026 00:18:55.390 [281473141862456] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Mar 25, 2026 00:18:55.390 [281473141862456] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 00:18:55.390 [281473141862456] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Mar 25, 2026 00:18:55.390 [281473141862456] DEBUG - [FFMPEG] - Decoding PPS
+Mar 25, 2026 00:18:55.390 [281473141862456] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Mar 25, 2026 00:18:55.390 [281473141862456] DEBUG - [FFMPEG] - Decoding SEI
+Mar 25, 2026 00:18:55.391 [281473141862456] DEBUG - [FFMPEG] - first_dts 0 not matching first dts NOPTS (pts 0, duration 41) in the queue
+Mar 25, 2026 00:18:55.442 [281473141862456] WARN - [FFMPEG] - Could not find codec parameters for stream 3 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (20000000) and 'probesize' (20000000) options
+Mar 25, 2026 00:18:55.442 [281473141862456] WARN - [FFMPEG] - Could not find codec parameters for stream 4 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (20000000) and 'probesize' (20000000) options
+Mar 25, 2026 00:18:55.442 [281473141862456] WARN - [FFMPEG] - Could not find codec parameters for stream 5 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (20000000) and 'probesize' (20000000) options
+Mar 25, 2026 00:18:55.442 [281473141862456] WARN - [FFMPEG] - Could not find codec parameters for stream 6 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (20000000) and 'probesize' (20000000) options
+Mar 25, 2026 00:18:55.443 [281473141862456] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 9225833 bytes read:9250113 seeks:0 frames:1417
+Mar 25, 2026 00:18:55.448 [281473141862456] DEBUG - [MI]  * 13fc9cba14b175f79876077707c6479b2a79bf21 [mkv hevc/aac] Duration: 7010086ms, 3840x1608 (2.388060) 23.976fps, bitrate=3164kbps, audio channels=6, optimizedForStreaming=0 ("/movies/Spider-Man - Into the Spider-Verse (2018)/Spider-Man - Into the Spider-Verse (2018) Bluray-2160p.mkv")
+Mar 25, 2026 00:18:55.448 [281473141862456] DEBUG - [MI] Chapters had generic titles, clearing.
+Mar 25, 2026 00:18:55.448 [281473141862456] DEBUG - [MI] Closing input file: "/movies/Spider-Man - Into the Spider-Verse (2018)/Spider-Man - Into the Spider-Verse (2018) Bluray-2160p.mkv"
+Mar 25, 2026 00:18:55.454 [281473141862456] DEBUG - Committing media stream changes for part 5
+Mar 25, 2026 00:18:55.456 [281473141862456] DEBUG - Updating media item 5, size=2772955136, metadata_item_id=3
+Mar 25, 2026 00:18:55.456 [281473141862456] DEBUG - Updating part with ID=5 [/movies/Spider-Man - Into the Spider-Verse (2018)/Spider-Man - Into the Spider-Verse (2018) Bluray-2160p.mkv]
+Mar 25, 2026 00:18:55.458 [281473013632504] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Mar 25, 2026 00:18:55.458 [281473141862456] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Mar 25, 2026 00:18:55.458 [281473141862456] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Mar 25, 2026 00:18:55.468 [281473017540088] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Mar 25, 2026 00:18:55.468 [281473141862456] DEBUG - Updating metadata item (save) (Spider-Man: un nuevo universo) with ID 3
+Mar 25, 2026 00:18:55.468 [281473017540088] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Mar 25, 2026 00:18:55.469 [281473013632504] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Mar 25, 2026 00:18:55.471 [281473017540088] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=3&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
