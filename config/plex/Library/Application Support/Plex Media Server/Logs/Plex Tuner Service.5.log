@@ -1,27 +1,17 @@
-Mar 24, 2026 21:23:26.728 [0xffffb6c2ab08] INFO - Plex Tuner Service v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: 
-Mar 24, 2026 21:23:26.728 [0xffffb6c2ab08] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1 (#1 SMP PREEMPT Thu Nov 20 09:34:02 UTC 2025), language: en-US
-Mar 24, 2026 21:23:26.728 [0xffffb6c2ab08] INFO - Processor Unknown architecture
-Mar 24, 2026 21:23:26.728 [0xffffb6c2ab08] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.43.0.10492-121068a07 32600
-Mar 24, 2026 21:23:26.727 [0xffffb8b9f890] INFO - [I] broker_t::start...
-Mar 24, 2026 21:23:26.731 [0xffffb8b9f890] INFO - [I] device_manager_t::init.
-Mar 24, 2026 21:23:26.731 [0xffffb8b9f890] INFO - [I] device_manager_t::init. Initialize provider manager
-Mar 24, 2026 21:23:26.731 [0xffffb8b9f890] INFO - [I] device_manager_t::init. Initialize all device auxes
-Mar 24, 2026 21:23:26.731 [0xffffb8b9f890] INFO - [I] dvb_device_factory_t::get_aux_list
-Mar 24, 2026 21:23:26.731 [0xffffb8b9f890] INFO - [I] tvbutler_aux_t::init
-Mar 24, 2026 21:23:26.732 [0xffffb8b9f890] INFO - [I] web_server_t::start. Starting web server on port 32600
-Mar 24, 2026 21:23:35.999 [0xffffb69c3b08] INFO - [I] web_service_t::process_device_discovery
-Mar 24, 2026 21:23:36.000 [0xffffb69c3b08] INFO - [I] device_reactor_t::get_device_list ()
-Mar 24, 2026 21:23:38.064 [0xffffb69c3b08] INFO - [I] SAT2IP - discover_satip_servers(): no servers found
-Mar 24, 2026 21:23:38.486 [0xffffb69c3b08] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
-Mar 24, 2026 21:23:38.491 [0xffffb69c3b08] INFO - [I] onetv_factory::DeviceGetListEx >>
-Mar 24, 2026 21:23:38.491 [0xffffb69c3b08] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99
-Mar 24, 2026 22:17:10.501 [0xffffb8b9f890] INFO - Received SIGINT: Interrupt from keyboard.
-Mar 24, 2026 22:17:10.502 [0xffffb8b9f890] INFO - [I] device_manager_t::term
-Mar 24, 2026 22:17:10.502 [0xffffb8b9f890] INFO - [I] device_manager_t::term. Stop all devices
-Mar 24, 2026 22:17:10.502 [0xffffb8b9f890] INFO - [I] device_manager_t::term. Shut down all device auxes
-Mar 24, 2026 22:17:10.502 [0xffffb8b9f890] INFO - [I] tvbutler_aux_t::term
-Mar 24, 2026 22:17:10.515 [0xffffb8b9f890] INFO - [I] web_server_t::stop. Web server is stopped
-Mar 24, 2026 22:17:10.515 [0xffffb8b9f890] INFO - [I] device_manager_t::term
-Mar 24, 2026 22:17:10.515 [0xffffb8b9f890] INFO - [I] device_manager_t::term. Stop all devices
-Mar 24, 2026 22:17:10.515 [0xffffb8b9f890] INFO - [I] device_manager_t::term. Shut down all device auxes
-Mar 24, 2026 22:17:10.515 [0xffffb8b9f890] INFO - [I] broker_t::shutdown. Shutdown is completed.
+Mar 25, 2026 10:49:26.242 [0xffffa4a5ab08] INFO - Plex Tuner Service v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: 
+Mar 25, 2026 10:49:26.245 [0xffffa4a5ab08] INFO - Linux version: 6.12.65-linuxkit (#1 SMP Thu Jan 15 14:58:53 UTC 2026), language: en-US
+Mar 25, 2026 10:49:26.246 [0xffffa4a5ab08] INFO - Processor Unknown architecture
+Mar 25, 2026 10:49:26.246 [0xffffa4a5ab08] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.43.0.10492-121068a07 32600
+Mar 25, 2026 10:49:26.234 [0xffffa69cf890] INFO - [I] broker_t::start...
+Mar 25, 2026 10:49:26.245 [0xffffa69cf890] INFO - [I] device_manager_t::init.
+Mar 25, 2026 10:49:26.245 [0xffffa69cf890] INFO - [I] device_manager_t::init. Initialize provider manager
+Mar 25, 2026 10:49:26.245 [0xffffa69cf890] INFO - [I] device_manager_t::init. Initialize all device auxes
+Mar 25, 2026 10:49:26.245 [0xffffa69cf890] INFO - [I] dvb_device_factory_t::get_aux_list
+Mar 25, 2026 10:49:26.245 [0xffffa69cf890] INFO - [I] tvbutler_aux_t::init
+Mar 25, 2026 10:49:26.252 [0xffffa69cf890] INFO - [I] web_server_t::start. Starting web server on port 32600
+Mar 25, 2026 10:49:34.670 [0xffffa45f6b08] INFO - [I] web_service_t::process_device_discovery
+Mar 25, 2026 10:49:34.670 [0xffffa45f6b08] INFO - [I] device_reactor_t::get_device_list ()
+Mar 25, 2026 10:49:36.739 [0xffffa45f6b08] INFO - [I] SAT2IP - discover_satip_servers(): no servers found
+Mar 25, 2026 10:49:37.147 [0xffffa45f6b08] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
+Mar 25, 2026 10:49:37.151 [0xffffa45f6b08] INFO - [I] onetv_factory::DeviceGetListEx >>
+Mar 25, 2026 10:49:37.151 [0xffffa45f6b08] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99

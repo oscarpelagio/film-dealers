@@ -7,7 +7,7 @@ services:
       - PGID=1000
       - TZ=Europe/Madrid
       - VERSION=docker
-      - PLEX_CLAIM=claim-RgYixhYJmySEPoxpY2XW
+      - PLEX_CLAIM=claim-cNEK_sAZtHzSCna56f-Y
     volumes:
       - ./config/plex:/config
       - ./media/movies:/movies
@@ -123,6 +123,18 @@ services:
       - media_net # Añadimos qbittorrent a la red normal
     restart: unless-stopped
 
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    container_name: flaresolverr
+    environment:
+      - LOG_LEVEL=info
+      - TZ=Europe/Madrid
+    ports:
+      - "8191:8191"
+    restart: unless-stopped
+    networks:
+      - media_net 
+      
 networks:
   media_net:
     driver: bridge

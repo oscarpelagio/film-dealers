@@ -1,7 +1,38 @@
-Mar 25, 2026 00:18:56.035 [281473691340280] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
-Mar 25, 2026 00:18:56.037 [281473691340280] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1, language: en-US
-Mar 25, 2026 00:18:56.040 [281473691340280] INFO - Processor: 8-core Apple Swift
-Mar 25, 2026 00:18:56.040 [281473691340280] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 3 --content-type=application/json
-Mar 25, 2026 00:18:56.017 [281473787232312] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Mar 25, 2026 00:18:56.186 [281473787232312] DEBUG - Matcher: found 0 auxiliary files for Spider-Man: un nuevo universo
-Mar 25, 2026 00:18:56.186 [281473787232312] DEBUG - Matcher: no sidecar subtitle files found for /movies/Spider-Man - Into the Spider-Verse (2018)/Spider-Man - Into the Spider-Verse (2018) Bluray-2160p.mkv
+Mar 25, 2026 18:50:37.981 [281473270476280] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
+Mar 25, 2026 18:50:37.981 [281473270476280] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1, language: en-US
+Mar 25, 2026 18:50:37.981 [281473270476280] INFO - Processor: 8-core Apple Swift
+Mar 25, 2026 18:50:37.981 [281473270476280] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 43 --content-type=application/json
+Mar 25, 2026 18:50:37.979 [281473366442040] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Mar 25, 2026 18:50:38.024 [281473366442040] DEBUG - Matcher: found 0 auxiliary files for Una Cenicienta moderna
+Mar 25, 2026 18:50:38.024 [281473366442040] DEBUG - [MI] Opening input file: "/movies/A Cinderella Story (2004)/A Cinderella Story (2004) Bluray-1080p.mp4"
+Mar 25, 2026 18:50:38.024 [281473366442040] DEBUG - [FFMPEG] - Opening '/movies/A Cinderella Story (2004)/A Cinderella Story (2004) Bluray-1080p.mp4' for reading
+Mar 25, 2026 18:50:38.024 [281473366442040] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Mar 25, 2026 18:50:38.024 [281473366442040] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Mar 25, 2026 18:50:38.025 [281473366442040] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Mar 25, 2026 18:50:38.025 [281473366442040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Mar 25, 2026 18:50:38.030 [281473366442040] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 137080944
+Mar 25, 2026 18:50:38.032 [281473366442040] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Mar 25, 2026 18:50:38.033 [281473366442040] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Mar 25, 2026 18:50:38.033 [281473366442040] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Mar 25, 2026 18:50:38.040 [281473366442040] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 274209792
+Mar 25, 2026 18:50:38.040 [281473366442040] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Mar 25, 2026 18:50:38.040 [281473366442040] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Mar 25, 2026 18:50:38.042 [281473366442040] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 4917448 bytes read:4926544 seeks:0 nb_streams:2
+Mar 25, 2026 18:50:38.042 [281473366442040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 18:50:38.042 [281473366442040] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 18:50:38.042 [281473366442040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 18:50:38.042 [281473366442040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 18:50:38.042 [281473366442040] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 18:50:38.042 [281473366442040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 18:50:38.042 [281473366442040] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Mar 25, 2026 18:50:38.042 [281473366442040] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Mar 25, 2026 18:50:38.042 [281473366442040] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Mar 25, 2026 18:50:38.042 [281473366442040] DEBUG - [FFMPEG] - no picture 
+Mar 25, 2026 18:50:38.043 [281473366442040] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Mar 25, 2026 18:50:38.043 [281473366442040] DEBUG - [FFMPEG] - All info found
+Mar 25, 2026 18:50:38.043 [281473366442040] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 4919669 bytes read:4926544 seeks:0 frames:2
+Mar 25, 2026 18:50:38.043 [281473366442040] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 18:50:38.043 [281473366442040] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 18:50:38.043 [281473366442040] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 18:50:38.044 [281473366442040] DEBUG - [MI] Closing input file: "/movies/A Cinderella Story (2004)/A Cinderella Story (2004) Bluray-1080p.mp4"
+Mar 25, 2026 18:50:38.044 [281473366442040] DEBUG - Matcher: no sidecar subtitle files found for /movies/A Cinderella Story (2004)/A Cinderella Story (2004) Bluray-1080p.mp4

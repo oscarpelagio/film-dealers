@@ -1,0 +1,55 @@
+2026-03-25 09:45:05,557 (ffff9a3ef890) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: 121068a (Wed Feb 04 17:28:30 UTC 2026)
+2026-03-25 09:45:05,557 (ffff9a3ef890) :  DEBUG (core:361) - Using the elevated policy
+2026-03-25 09:45:05,557 (ffff9a3ef890) :  DEBUG (core:450) - Starting runtime component.
+2026-03-25 09:45:05,559 (ffff9a3ef890) :  DEBUG (core:450) - Starting caching component.
+2026-03-25 09:45:05,559 (ffff9a3ef890) :  DEBUG (core:450) - Starting data component.
+2026-03-25 09:45:05,559 (ffff9a3ef890) :  DEBUG (core:450) - Starting networking component.
+2026-03-25 09:45:05,559 (ffff9a3ef890) :  DEBUG (networking:266) - No cookie jar found
+2026-03-25 09:45:05,560 (ffff9a3ef890) :  DEBUG (networking:434) - Setting the default network timeout to 20.0
+2026-03-25 09:45:05,561 (ffff9a3ef890) :  DEBUG (core:450) - Starting localization component.
+2026-03-25 09:45:05,561 (ffff9a3ef890) :  INFO (localization:409) - Setting the default locale to en-us
+2026-03-25 09:45:05,561 (ffff9a3ef890) :  DEBUG (core:450) - Starting messaging component.
+2026-03-25 09:45:05,561 (ffff9a3ef890) :  DEBUG (core:450) - Starting debugging component.
+2026-03-25 09:45:05,562 (ffff9a3ef890) :  DEBUG (core:450) - Starting services component.
+2026-03-25 09:45:05,562 (ffff9a3ef890) :  DEBUG (core:450) - Starting myplex component.
+2026-03-25 09:45:05,562 (ffff9a3ef890) :  DEBUG (core:450) - Starting notifications component.
+2026-03-25 09:45:05,562 (ffff96f5fb08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/org.musicbrainz.agents.music'
+2026-03-25 09:45:05,615 (ffff9a3ef890) :  DEBUG (accessor:68) - Creating a new model access point for provider org.musicbrainz.agents.music in namespace 'metadata'
+2026-03-25 09:45:05,621 (ffff9a3ef890) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2026-03-25 09:45:05,636 (ffff9a3ef890) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2026-03-25 09:45:05,638 (ffff9a3ef890) :  CRITICAL (runtime:1299) - Exception getting hosted resource hashes (most recent call last):
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-121068a07/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/runtime.py", line 1293, in get_resource_hashes
+    json = self._core.networking.http_request("http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes", timeout=10).content
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-121068a07/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 243, in content
+    return self.__str__()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-121068a07/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 221, in __str__
+    self.load()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-121068a07/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 159, in load
+    f = self._opener.open(req, timeout=self._timeout)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 435, in open
+    response = meth(req, response)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 548, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 473, in error
+    return self._call_chain(*args)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 556, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 404: Not Found
+
+2026-03-25 09:45:05,647 (ffff96d3cb08) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2026-03-25 09:45:05,647 (ffff9a3ef890) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2026-03-25 09:45:05,658 (ffff9a3ef890) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2026-03-25 09:45:05,662 (ffff96d3cb08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2026-03-25 09:45:05,669 (ffff96cf6b08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400'
+2026-03-25 09:45:05,686 (ffff96cf6b08) :  DEBUG (core:538) - Machine identifier is e54df6383d25ebd337b0eedd659aa30a8163aa07
+2026-03-25 09:45:05,688 (ffff96cf6b08) :  DEBUG (core:539) - Server version is 1.43.0.10492-121068a07
+2026-03-25 09:45:05,688 (ffff9a3ef890) :  DEBUG (core:150) - Finished starting framework core
+2026-03-25 09:45:05,693 (ffff9a3ef890) :  DEBUG (core:560) - Loading plug-in code
+2026-03-25 09:45:05,708 (ffff9a3ef890) :  DEBUG (core:566) - Finished loading plug-in code
+2026-03-25 09:45:05,710 (ffff9a3ef890) :  DEBUG (agentkit:1132) - Creating new agent class called MusicbrainzArtistAgent
+2026-03-25 09:45:05,709 (ffff96d3cb08) :  DEBUG (services:362) - Loaded services
+2026-03-25 09:45:05,712 (ffff9a3ef890) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'ar', 'bg', 'zh', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'el', 'hu', 'id', 'it', 'ja', 'ko', 'nn', 'pl', 'pt', 'ro', 'ru', 'sr', 'sk', 'es', 'sv', 'th', 'tr', 'vi', 'xx'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Musicbrainz'}]
+2026-03-25 09:45:05,721 (ffff96d19b08) :  DEBUG (services:438) - No shared code to load
+2026-03-25 09:45:05,725 (ffff9a3ef890) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo1CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdAoyCnMyOApvcmcubXVzaWNicmFpbnouYWdlbnRzLm11c2ljczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzEKcjIKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50bnMxNApjb250cmlidXRlc190b3I0CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczExCk11c2ljYnJhaW56czQKbmFtZTEKczYKQXJ0aXN0MzAKczIKZW5zMgphcnMyCmJnczIKemhzMgpocnMyCmNzczIKZGFzMgpubHMyCmZpczIKZnJzMgpkZXMyCmVsczIKaHVzMgppZHMyCml0czIKamFzMgprb3MyCm5uczIKcGxzMgpwdHMyCnJvczIKcnVzMgpzcnMyCnNrczIKZXNzMgpzdnMyCnRoczIKdHJzMgp2aXMyCnh4cjAK'

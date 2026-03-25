@@ -1,0 +1,7 @@
+Mar 25, 2026 11:50:17.793 [281473157172728] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
+Mar 25, 2026 11:50:17.793 [281473157172728] INFO - Linux version: 6.12.65-linuxkit, language: en-US
+Mar 25, 2026 11:50:17.794 [281473157172728] INFO - Processor: 8-core Apple Swift
+Mar 25, 2026 11:50:17.798 [281473157172728] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 13 --content-type=application/json
+Mar 25, 2026 11:50:17.798 [281473253130296] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Mar 25, 2026 11:50:19.290 [281473253130296] DEBUG - Matcher: found 0 auxiliary files for Hamnet
+Mar 25, 2026 11:50:19.290 [281473253130296] DEBUG - Matcher: no sidecar subtitle files found for /movies/Hamnet (2025)/Hamnet (2025) Unknown.mkv

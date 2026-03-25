@@ -1,0 +1,38 @@
+Mar 25, 2026 13:14:44.770 [281472988028408] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
+Mar 25, 2026 13:14:44.770 [281472988028408] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1, language: en-US
+Mar 25, 2026 13:14:44.770 [281472988028408] INFO - Processor: 8-core Apple Swift
+Mar 25, 2026 13:14:44.770 [281472988028408] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 23 --content-type=application/json
+Mar 25, 2026 13:14:44.769 [281473083994168] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Mar 25, 2026 13:14:44.816 [281473083994168] DEBUG - Matcher: found 0 auxiliary files for “Cumbres Borrascosas”
+Mar 25, 2026 13:14:44.816 [281473083994168] DEBUG - [MI] Opening input file: "/movies/Wuthering Heights (2026)/Wuthering Heights (2026) WEBRip-1080p.mp4"
+Mar 25, 2026 13:14:44.816 [281473083994168] DEBUG - [FFMPEG] - Opening '/movies/Wuthering Heights (2026)/Wuthering Heights (2026) WEBRip-1080p.mp4' for reading
+Mar 25, 2026 13:14:44.816 [281473083994168] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Mar 25, 2026 13:14:44.816 [281473083994168] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Mar 25, 2026 13:14:44.816 [281473083994168] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Mar 25, 2026 13:14:44.816 [281473083994168] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Mar 25, 2026 13:14:44.823 [281473083994168] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 196057872
+Mar 25, 2026 13:14:44.827 [281473083994168] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Mar 25, 2026 13:14:44.828 [281473083994168] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Mar 25, 2026 13:14:44.828 [281473083994168] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Mar 25, 2026 13:14:44.835 [281473083994168] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 392116224
+Mar 25, 2026 13:14:44.835 [281473083994168] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Mar 25, 2026 13:14:44.835 [281473083994168] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Mar 25, 2026 13:14:44.840 [281473083994168] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5545791 bytes read:5548592 seeks:0 nb_streams:2
+Mar 25, 2026 13:14:44.840 [281473083994168] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 13:14:44.840 [281473083994168] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 13:14:44.840 [281473083994168] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 13:14:44.840 [281473083994168] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 13:14:44.840 [281473083994168] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 13:14:44.840 [281473083994168] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 13:14:44.840 [281473083994168] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Mar 25, 2026 13:14:44.840 [281473083994168] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Mar 25, 2026 13:14:44.840 [281473083994168] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Mar 25, 2026 13:14:44.841 [281473083994168] DEBUG - [FFMPEG] - no picture 
+Mar 25, 2026 13:14:44.843 [281473083994168] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Mar 25, 2026 13:14:44.843 [281473083994168] DEBUG - [FFMPEG] - All info found
+Mar 25, 2026 13:14:44.843 [281473083994168] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 5547261 bytes read:5548592 seeks:0 frames:2
+Mar 25, 2026 13:14:44.843 [281473083994168] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 13:14:44.843 [281473083994168] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 13:14:44.843 [281473083994168] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 13:14:44.843 [281473083994168] DEBUG - [MI] Closing input file: "/movies/Wuthering Heights (2026)/Wuthering Heights (2026) WEBRip-1080p.mp4"
+Mar 25, 2026 13:14:44.844 [281473083994168] DEBUG - Matcher: no sidecar subtitle files found for /movies/Wuthering Heights (2026)/Wuthering Heights (2026) WEBRip-1080p.mp4

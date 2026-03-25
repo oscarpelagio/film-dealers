@@ -1,7 +1,38 @@
-Mar 25, 2026 00:06:17.690 [281472860343800] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
-Mar 25, 2026 00:06:17.690 [281472860343800] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1, language: en-US
-Mar 25, 2026 00:06:17.692 [281472860343800] INFO - Processor: 8-core Apple Swift
-Mar 25, 2026 00:06:17.692 [281472860343800] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 1 --content-type=application/json
-Mar 25, 2026 00:06:17.692 [281472956235832] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Mar 25, 2026 00:06:17.779 [281472956235832] DEBUG - Matcher: found 0 auxiliary files for Los domingos
-Mar 25, 2026 00:06:17.779 [281472956235832] DEBUG - Matcher: no sidecar subtitle files found for /movies/Los domingos (2025).mkv
+Mar 25, 2026 13:56:10.142 [281473441717752] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
+Mar 25, 2026 13:56:10.143 [281473441717752] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1, language: en-US
+Mar 25, 2026 13:56:10.143 [281473441717752] INFO - Processor: 8-core Apple Swift
+Mar 25, 2026 13:56:10.143 [281473441717752] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 33 --content-type=application/json
+Mar 25, 2026 13:56:10.138 [281473537609784] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Mar 25, 2026 13:56:10.193 [281473537609784] DEBUG - Matcher: found 0 auxiliary files for Little Amelie
+Mar 25, 2026 13:56:10.193 [281473537609784] DEBUG - [MI] Opening input file: "/movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4"
+Mar 25, 2026 13:56:10.193 [281473537609784] DEBUG - [FFMPEG] - Opening '/movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4' for reading
+Mar 25, 2026 13:56:10.193 [281473537609784] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Mar 25, 2026 13:56:10.194 [281473537609784] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Mar 25, 2026 13:56:10.194 [281473537609784] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Mar 25, 2026 13:56:10.194 [281473537609784] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Mar 25, 2026 13:56:10.209 [281473537609784] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1024, duration: 56934408
+Mar 25, 2026 13:56:10.210 [281473537609784] DEBUG - [FFMPEG] - Offset DTS by 1024 to make first pts zero.
+Mar 25, 2026 13:56:10.211 [281473537609784] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Mar 25, 2026 13:56:10.211 [281473537609784] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Mar 25, 2026 13:56:10.239 [281473537609784] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 222399984
+Mar 25, 2026 13:56:10.239 [281473537609784] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Mar 25, 2026 13:56:10.239 [281473537609784] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Mar 25, 2026 13:56:10.242 [281473537609784] ERROR - [FFMPEG] - Referenced QT chapter track not found
+Mar 25, 2026 13:56:10.242 [281473537609784] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 883556352 bytes read:4115115 seeks:1 nb_streams:2
+Mar 25, 2026 13:56:10.243 [281473537609784] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 13:56:10.243 [281473537609784] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 13:56:10.243 [281473537609784] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 13:56:10.243 [281473537609784] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 13:56:10.243 [281473537609784] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 13:56:10.243 [281473537609784] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 13:56:10.243 [281473537609784] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Mar 25, 2026 13:56:10.243 [281473537609784] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Mar 25, 2026 13:56:10.243 [281473537609784] DEBUG - [FFMPEG] - no picture 
+Mar 25, 2026 13:56:10.245 [281473537609784] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Mar 25, 2026 13:56:10.245 [281473537609784] DEBUG - [FFMPEG] - All info found
+Mar 25, 2026 13:56:10.245 [281473537609784] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 4102904 bytes read:4147883 seeks:2 frames:2
+Mar 25, 2026 13:56:10.245 [281473537609784] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 13:56:10.245 [281473537609784] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 13:56:10.245 [281473537609784] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 13:56:10.245 [281473537609784] DEBUG - [MI] Closing input file: "/movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4"
+Mar 25, 2026 13:56:10.246 [281473537609784] DEBUG - Matcher: no sidecar subtitle files found for /movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4

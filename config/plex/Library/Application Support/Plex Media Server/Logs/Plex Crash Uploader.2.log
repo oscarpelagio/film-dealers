@@ -1,4 +1,4 @@
-Mar 24, 2026 23:05:29.261 [281473164131024] INFO - Crash Uploader - Platform: Linux ServerUUID: 0b7ef4be55a6ce2cbd71deb676303551923b4830 UserId: oscaarpelagio@gmail.com Version: 1.43.0.10492-121068a07
-Mar 24, 2026 23:05:29.261 [281473164131024] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.43.0.10492-121068a07
-Mar 24, 2026 23:05:29.261 [281473164131024] INFO - Post-processed minidump directory: /run/plex-temp
-Mar 24, 2026 23:05:29.263 [281473195702416] INFO - Crash Uploader - Processing Complete.
+Mar 25, 2026 13:19:32.793 [281473272789712] INFO - Crash Uploader - Platform: Linux ServerUUID: e54df6383d25ebd337b0eedd659aa30a8163aa07 UserId: oscar.pelagio@icloud.com Version: 1.43.0.10492-121068a07
+Mar 25, 2026 13:19:32.793 [281473272789712] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.43.0.10492-121068a07
+Mar 25, 2026 13:19:32.793 [281473272789712] INFO - Post-processed minidump directory: /run/plex-temp
+Mar 25, 2026 13:19:32.794 [281473304361104] INFO - Crash Uploader - Processing Complete.

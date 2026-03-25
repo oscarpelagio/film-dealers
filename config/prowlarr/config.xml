@@ -5,7 +5,6 @@
   <EnableSsl>False</EnableSsl>
   <LaunchBrowser>True</LaunchBrowser>
   <ApiKey>f142761338ec4f8f891c705177234859</ApiKey>
-  <AuthenticationRequired>Enabled</AuthenticationRequired>
   <Branch>master</Branch>
   <LogLevel>debug</LogLevel>
   <SslCertPath></SslCertPath>
@@ -13,5 +12,6 @@
   <UrlBase></UrlBase>
   <InstanceName>Prowlarr</InstanceName>
   <UpdateMechanism>Docker</UpdateMechanism>
+  <AuthenticationRequired>Enabled</AuthenticationRequired>
   <AuthenticationMethod>Forms</AuthenticationMethod>
 </Config>

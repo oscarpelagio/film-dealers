@@ -1,0 +1,64 @@
+Mar 25, 2026 13:56:15.245 [281473040522744] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
+Mar 25, 2026 13:56:15.245 [281473040522744] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1, language: en-US
+Mar 25, 2026 13:56:15.245 [281473040522744] INFO - Processor: 8-core Apple Swift
+Mar 25, 2026 13:56:15.245 [281473040522744] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 33
+Mar 25, 2026 13:56:15.243 [281473136488504] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Mar 25, 2026 13:56:15.300 [281473136488504] DEBUG - Analyzing media parts for item 33 (Little Amelie): 63
+Mar 25, 2026 13:56:15.303 [281473136488504] DEBUG - Updating part with ID=63 [/movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4]
+Mar 25, 2026 13:56:15.303 [281473136488504] DEBUG - Part hashes for media item 63 have changed.
+Mar 25, 2026 13:56:15.303 [281473136488504] DEBUG - [ID 63] Media part analysis: /movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4
+Mar 25, 2026 13:56:15.304 [281473136488504] DEBUG - [MI] Opening input file: "/movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4"
+Mar 25, 2026 13:56:15.304 [281473136488504] DEBUG - [FFMPEG] - Opening '/movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4' for reading
+Mar 25, 2026 13:56:15.304 [281473136488504] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Mar 25, 2026 13:56:15.305 [281473136488504] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Mar 25, 2026 13:56:15.306 [281473136488504] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Mar 25, 2026 13:56:15.306 [281473136488504] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Mar 25, 2026 13:56:15.326 [281473136488504] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1024, duration: 56934408
+Mar 25, 2026 13:56:15.330 [281473136488504] DEBUG - [FFMPEG] - Offset DTS by 1024 to make first pts zero.
+Mar 25, 2026 13:56:15.331 [281473136488504] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Mar 25, 2026 13:56:15.331 [281473136488504] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Mar 25, 2026 13:56:15.358 [281473136488504] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 222399984
+Mar 25, 2026 13:56:15.358 [281473136488504] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Mar 25, 2026 13:56:15.358 [281473136488504] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Mar 25, 2026 13:56:15.360 [281473136488504] ERROR - [FFMPEG] - Referenced QT chapter track not found
+Mar 25, 2026 13:56:15.360 [281473136488504] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1353646080 bytes read:4115115 seeks:1 nb_streams:2
+Mar 25, 2026 13:56:15.361 [281473136488504] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 13:56:15.361 [281473136488504] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 13:56:15.361 [281473136488504] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 13:56:15.362 [281473136488504] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 13:56:15.362 [281473136488504] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 13:56:15.362 [281473136488504] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 13:56:15.362 [281473136488504] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Mar 25, 2026 13:56:15.362 [281473136488504] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Mar 25, 2026 13:56:15.362 [281473136488504] DEBUG - [FFMPEG] - no picture 
+Mar 25, 2026 13:56:15.363 [281473136488504] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Mar 25, 2026 13:56:15.363 [281473136488504] DEBUG - [FFMPEG] - All info found
+Mar 25, 2026 13:56:15.363 [281473136488504] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 4102904 bytes read:4147883 seeks:2 frames:2
+Mar 25, 2026 13:56:15.364 [281473136488504] DEBUG - [MI] Opening "/movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4" for MP4 atom parsing
+Mar 25, 2026 13:56:15.365 [281473136488504] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Mar 25, 2026 13:56:15.365 [281473136488504] DEBUG - Mp4AtomParser: Found moov atom of size 4101424 at offset 32
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found trak atom of size 1631303 at offset 148
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found trak atom of size 2469782 at offset 1631451
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found mdia atom of size 1631147 at offset 304
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found minf atom of size 1631062 at offset 389
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found stbl atom of size 1630998 at offset 453
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found tref atom of size 20 at offset 284
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found chap atom of size 12 at offset 292
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - [MI] Determined stream id 0 has chapters, not subtitles
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found mdia atom of size 2469626 at offset 1631607
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found minf atom of size 2469541 at offset 1631692
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found stbl atom of size 2469481 at offset 1631752
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found tref atom of size 20 at offset 1631587
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - Mp4AtomParser: Found chap atom of size 12 at offset 1631595
+Mar 25, 2026 13:56:15.389 [281473136488504] DEBUG - [MI] Determined stream id 0 has chapters, not subtitles
+Mar 25, 2026 13:56:15.390 [281473136488504] DEBUG - [MI]  * dba10d695b7cecc215d59240ad1644a3d29a5608 [mp4 h264/aac] Duration: 4633333ms, 1920x1036 (1.853282) 24.000fps, bitrate=2346kbps, audio channels=6, optimizedForStreaming=1 ("/movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4")
+Mar 25, 2026 13:56:15.390 [281473136488504] DEBUG - [MI] Importing 12 media chapters.
+Mar 25, 2026 13:56:15.390 [281473136488504] DEBUG - [MI] Chapters had generic titles, clearing.
+Mar 25, 2026 13:56:15.390 [281473136488504] DEBUG - [MI] Closing input file: "/movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4"
+Mar 25, 2026 13:56:15.390 [281473136488504] DEBUG - Streams didn't change in analysis, not saving.
+Mar 25, 2026 13:56:15.390 [281473136488504] DEBUG - Updating media item 63, size=1359216640, metadata_item_id=33
+Mar 25, 2026 13:56:15.390 [281473136488504] DEBUG - Updating part with ID=63 [/movies/Little Amélie or the Character of Rain (2025)/Little Amélie or the Character of Rain (2025) Bluray-1080p.mp4]
+Mar 25, 2026 13:56:15.391 [281472990899704] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=33&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Mar 25, 2026 13:56:15.392 [281472990408184] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=33&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Mar 25, 2026 13:56:15.392 [281472990899704] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=33&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Mar 25, 2026 13:56:15.393 [281472990408184] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=33&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)

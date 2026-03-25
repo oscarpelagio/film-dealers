@@ -1,4 +1,5 @@
-Mar 24, 2026 23:14:19.287 [281473634024144] INFO - Crash Uploader - Platform: Linux ServerUUID: 0b7ef4be55a6ce2cbd71deb676303551923b4830 UserId: oscaarpelagio@gmail.com Version: 1.43.0.10492-121068a07
-Mar 24, 2026 23:14:19.287 [281473634024144] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.43.0.10492-121068a07
-Mar 24, 2026 23:14:19.287 [281473634024144] INFO - Post-processed minidump directory: /run/plex-temp
-Mar 24, 2026 23:14:19.285 [281473665595536] INFO - Crash Uploader - Processing Complete.
+Mar 25, 2026 20:11:55.647 [281472923876048] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1774460818 Duration: 5097 UserId: oscar.pelagio@icloud.com Version: 1.43.0.10492-121068a07
+Mar 25, 2026 20:11:55.641 [281472955447440] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Mar 25, 2026 20:11:55.792 [281472923691728] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.2s) 200 response from POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Mar 25, 2026 20:11:55.792 [281472955447440] INFO - Successfully reported session health
+Mar 25, 2026 20:11:55.792 [281472955447440] INFO - Crash Uploader - Processing Complete.

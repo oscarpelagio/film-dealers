@@ -1,23 +1,23 @@
-2026-03-24 20:26:40,628 (ffffb8d5f890) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: 121068a (Wed Feb 04 17:28:30 UTC 2026)
-2026-03-24 20:26:40,628 (ffffb8d5f890) :  DEBUG (core:361) - Using the standard policy
-2026-03-24 20:26:40,628 (ffffb8d5f890) :  DEBUG (core:450) - Starting runtime component.
-2026-03-24 20:26:40,629 (ffffb8d5f890) :  DEBUG (core:450) - Starting caching component.
-2026-03-24 20:26:40,629 (ffffb8d5f890) :  DEBUG (core:450) - Starting data component.
-2026-03-24 20:26:40,630 (ffffb8d5f890) :  DEBUG (core:450) - Starting networking component.
-2026-03-24 20:26:40,630 (ffffb8d5f890) :  DEBUG (networking:266) - No cookie jar found
-2026-03-24 20:26:40,631 (ffffb8d5f890) :  DEBUG (networking:434) - Setting the default network timeout to 20.0
-2026-03-24 20:26:40,632 (ffffb8d5f890) :  DEBUG (core:450) - Starting localization component.
-2026-03-24 20:26:40,632 (ffffb8d5f890) :  INFO (localization:409) - Setting the default locale to en-us
-2026-03-24 20:26:40,632 (ffffb8d5f890) :  DEBUG (core:450) - Starting messaging component.
-2026-03-24 20:26:40,632 (ffffb8d5f890) :  DEBUG (core:450) - Starting debugging component.
-2026-03-24 20:26:40,633 (ffffb8d5f890) :  DEBUG (core:450) - Starting services component.
-2026-03-24 20:26:40,633 (ffffb8d5f890) :  DEBUG (core:450) - Starting myplex component.
-2026-03-24 20:26:40,633 (ffffb8d5f890) :  DEBUG (core:450) - Starting notifications component.
-2026-03-24 20:26:40,635 (ffffb58cfb08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.htbackdrops'
-2026-03-24 20:26:40,697 (ffffb8d5f890) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.htbackdrops in namespace 'metadata'
-2026-03-24 20:26:40,699 (ffffb8d5f890) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
-2026-03-24 20:26:40,733 (ffffb8d5f890) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
-2026-03-24 20:26:40,735 (ffffb8d5f890) :  CRITICAL (runtime:1299) - Exception getting hosted resource hashes (most recent call last):
+2026-03-25 09:45:43,671 (ffffbae1f890) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: 121068a (Wed Feb 04 17:28:30 UTC 2026)
+2026-03-25 09:45:43,671 (ffffbae1f890) :  DEBUG (core:361) - Using the standard policy
+2026-03-25 09:45:43,672 (ffffbae1f890) :  DEBUG (core:450) - Starting runtime component.
+2026-03-25 09:45:43,673 (ffffbae1f890) :  DEBUG (core:450) - Starting caching component.
+2026-03-25 09:45:43,673 (ffffbae1f890) :  DEBUG (core:450) - Starting data component.
+2026-03-25 09:45:43,673 (ffffbae1f890) :  DEBUG (core:450) - Starting networking component.
+2026-03-25 09:45:43,673 (ffffbae1f890) :  DEBUG (networking:266) - No cookie jar found
+2026-03-25 09:45:43,675 (ffffbae1f890) :  DEBUG (networking:434) - Setting the default network timeout to 20.0
+2026-03-25 09:45:43,676 (ffffbae1f890) :  DEBUG (core:450) - Starting localization component.
+2026-03-25 09:45:43,676 (ffffbae1f890) :  INFO (localization:409) - Setting the default locale to en-us
+2026-03-25 09:45:43,676 (ffffbae1f890) :  DEBUG (core:450) - Starting messaging component.
+2026-03-25 09:45:43,676 (ffffbae1f890) :  DEBUG (core:450) - Starting debugging component.
+2026-03-25 09:45:43,677 (ffffbae1f890) :  DEBUG (core:450) - Starting services component.
+2026-03-25 09:45:43,677 (ffffbae1f890) :  DEBUG (core:450) - Starting myplex component.
+2026-03-25 09:45:43,677 (ffffb79acb08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.htbackdrops'
+2026-03-25 09:45:43,677 (ffffbae1f890) :  DEBUG (core:450) - Starting notifications component.
+2026-03-25 09:45:43,724 (ffffbae1f890) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.htbackdrops in namespace 'metadata'
+2026-03-25 09:45:43,727 (ffffbae1f890) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2026-03-25 09:45:43,730 (ffffbae1f890) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2026-03-25 09:45:43,731 (ffffbae1f890) :  CRITICAL (runtime:1299) - Exception getting hosted resource hashes (most recent call last):
   File "/usr/lib/plexmediaserver/Resources/Plug-ins-121068a07/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/runtime.py", line 1293, in get_resource_hashes
     json = self._core.networking.http_request("http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes", timeout=10).content
   File "/usr/lib/plexmediaserver/Resources/Plug-ins-121068a07/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 243, in content
@@ -38,27 +38,27 @@
     raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
 HTTPError: HTTP Error 404: Not Found
 
-2026-03-24 20:26:40,742 (ffffb56fbb08) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
-2026-03-24 20:26:40,742 (ffffb8d5f890) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
-2026-03-24 20:26:40,743 (ffffb56b5b08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400'
-2026-03-24 20:26:40,743 (ffffb8d5f890) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
-2026-03-24 20:26:40,744 (ffffb8d5f890) :  DEBUG (core:150) - Finished starting framework core
-2026-03-24 20:26:40,745 (ffffb8d5f890) :  DEBUG (core:560) - Loading plug-in code
-2026-03-24 20:26:40,744 (ffffb56fbb08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
-2026-03-24 20:26:40,752 (ffffb56b5b08) :  DEBUG (core:538) - Machine identifier is 0b7ef4be55a6ce2cbd71deb676303551923b4830
-2026-03-24 20:26:40,753 (ffffb56b5b08) :  DEBUG (core:539) - Server version is 1.43.0.10492-121068a07
-2026-03-24 20:26:40,761 (ffffb56fbb08) :  DEBUG (services:362) - Loaded services
-2026-03-24 20:26:40,764 (ffffb8d5f890) :  DEBUG (core:566) - Finished loading plug-in code
-2026-03-24 20:26:40,764 (ffffb8d5f890) :  DEBUG (messaging:69) - Exposing function ArtistSearch for remote access
-2026-03-24 20:26:40,764 (ffffb8d5f890) :  DEBUG (agentkit:1132) - Creating new agent class called HTBDAgent
-2026-03-24 20:26:40,767 (ffffb56d8b08) :  DEBUG (services:438) - No shared code to load
-2026-03-24 20:26:40,769 (ffffb8d5f890) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.lastfm'], 'languages': ['ab', 'aa', 'af', 'ak', 'sq', 'am', 'ar', 'an', 'hy', 'as', 'av', 'ae', 'ay', 'az', 'bm', 'ba', 'eu', 'be', 'bn', 'bh', 'bi', 'bs', 'pb', 'br', 'bg', 'my', 'ca', 'ch', 'ce', 'ny', 'zh', 'cu', 'cv', 'kw', 'co', 'cr', 'hr', 'cs', 'da', 'dv', 'nl', 'dz', 'en', 'eo', 'et', 'ee', 'fo', 'fj', 'fi', 'fr', 'fy', 'ff', 'gd', 'gl', 'lg', 'ka', 'de', 'el', 'gn', 'gu', 'ht', 'ha', 'he', 'hz', 'hi', 'ho', 'hu', 'is', 'io', 'ig', 'id', 'ia', 'ie', 'iu', 'ik', 'ga', 'it', 'ja', 'jv', 'kl', 'kn', 'kr', 'ks', 'kk', 'km', 'ki', 'rw', 'ky', 'kv', 'kg', 'ko', 'kj', 'ku', 'lo', 'la', 'lv', 'li', 'ln', 'lt', 'lu', 'lb', 'mk', 'mg', 'ms', 'ml', 'mt', 'gv', 'mi', 'mr', 'mh', 'mo', 'mn', 'na', 'nv', 'ng', 'ne', 'xn', 'nd', 'no', 'nb', 'nn', 'oc', 'oj', 'or', 'om', 'os', 'pi', 'pa', 'fa', 'pl', 'pt', 'ps', 'qu', 'rm', 'ro', 'rn', 'ru', 'se', 'sm', 'sg', 'sa', 'sc', 'sr', 'sn', 'ii', 'sd', 'si', 'sk', 'sl', 'so', 'st', 'nr', 'es', 'su', 'sw', 'ss', 'sv', 'tl', 'ty', 'tg', 'ta', 'tt', 'te', 'th', 'bo', 'ti', 'to', 'ts', 'tn', 'tr', 'tk', 'tw', 'ug', 'uk', 'ur', 'uz', 've', 'vi', 'vo', 'wa', 'cy', 'wo', 'xh', 'yi', 'yo', 'za', 'zu'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': False, 'name': 'Home Theater Backdrops'}]
-2026-03-24 20:26:40,770 (ffffb8d5f890) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczMwCmNvbS5wbGV4YXBwLmFnZW50cy5odGJhY2tkcm9wc3MxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI0CnMxNApjb250cmlidXRlc190b3I1CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMHM1CnByZWZzczIyCkhvbWUgVGhlYXRlciBCYWNrZHJvcHNzNApuYW1lMQpzNgpBcnRpc3QxCnMyNQpjb20ucGxleGFwcC5hZ2VudHMubGFzdGZtMTg3CnMyCmFiczIKYWFzMgphZnMyCmFrczIKc3FzMgphbXMyCmFyczIKYW5zMgpoeXMyCmFzczIKYXZzMgphZXMyCmF5czIKYXpzMgpibXMyCmJhczIKZXVzMgpiZXMyCmJuczIKYmhzMgpiaXMyCmJzczIKcGJzMgpicnMyCmJnczIKbXlzMgpjYXMyCmNoczIKY2VzMgpueXMyCnpoczIKY3VzMgpjdnMyCmt3czIKY29zMgpjcnMyCmhyczIKY3NzMgpkYXMyCmR2czIKbmxzMgpkenMyCmVuczIKZW9zMgpldHMyCmVlczIKZm9zMgpmanMyCmZpczIKZnJzMgpmeXMyCmZmczIKZ2RzMgpnbHMyCmxnczIKa2FzMgpkZXMyCmVsczIKZ25zMgpndXMyCmh0czIKaGFzMgpoZXMyCmh6czIKaGlzMgpob3MyCmh1czIKaXNzMgppb3MyCmlnczIKaWRzMgppYXMyCmllczIKaXVzMgppa3MyCmdhczIKaXRzMgpqYXMyCmp2czIKa2xzMgprbnMyCmtyczIKa3NzMgpra3MyCmttczIKa2lzMgpyd3MyCmt5czIKa3ZzMgprZ3MyCmtvczIKa2pzMgprdXMyCmxvczIKbGFzMgpsdnMyCmxpczIKbG5zMgpsdHMyCmx1czIKbGJzMgpta3MyCm1nczIKbXNzMgptbHMyCm10czIKZ3ZzMgptaXMyCm1yczIKbWhzMgptb3MyCm1uczIKbmFzMgpudnMyCm5nczIKbmVzMgp4bnMyCm5kczIKbm9zMgpuYnMyCm5uczIKb2NzMgpvanMyCm9yczIKb21zMgpvc3MyCnBpczIKcGFzMgpmYXMyCnBsczIKcHRzMgpwc3MyCnF1czIKcm1zMgpyb3MyCnJuczIKcnVzMgpzZXMyCnNtczIKc2dzMgpzYXMyCnNjczIKc3JzMgpzbnMyCmlpczIKc2RzMgpzaXMyCnNrczIKc2xzMgpzb3MyCnN0czIKbnJzMgplc3MyCnN1czIKc3dzMgpzc3MyCnN2czIKdGxzMgp0eXMyCnRnczIKdGFzMgp0dHMyCnRlczIKdGhzMgpib3MyCnRpczIKdG9zMgp0c3MyCnRuczIKdHJzMgp0a3MyCnR3czIKdWdzMgp1a3MyCnVyczIKdXpzMgp2ZXMyCnZpczIKdm9zMgp3YXMyCmN5czIKd29zMgp4aHMyCnlpczIKeW9zMgp6YXMyCnp1cjAK'
-2026-03-24 20:26:40,777 (ffffb8d5f890) :  INFO (core:611) - Started plug-in
-2026-03-24 20:26:40,777 (ffffb8d5f890) :  DEBUG (socketinterface:160) - Starting socket server
-2026-03-24 20:26:40,778 (ffffb8d5f890) :  DEBUG (runtime:1117) - Created a thread named 'start'
-2026-03-24 20:26:40,778 (ffffb8d5f890) :  INFO (socketinterface:184) - Socket server started on port 41251
-2026-03-24 20:26:40,778 (ffffb8d5f890) :  INFO (pipeinterface:25) - Entering run loop
-2026-03-24 20:26:40,778 (ffffb8d5f890) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
-2026-03-24 20:26:40,779 (ffffb8d5f890) :  DEBUG (runtime:814) - Found route matching /:/prefixes
-2026-03-24 20:26:40,779 (ffffb8d5f890) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 155 bytes
+2026-03-25 09:45:43,734 (ffffb7774b08) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2026-03-25 09:45:43,734 (ffffbae1f890) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2026-03-25 09:45:43,735 (ffffbae1f890) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2026-03-25 09:45:43,735 (ffffb7774b08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2026-03-25 09:45:43,736 (ffffb772eb08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400'
+2026-03-25 09:45:43,737 (ffffbae1f890) :  DEBUG (core:150) - Finished starting framework core
+2026-03-25 09:45:43,737 (ffffbae1f890) :  DEBUG (core:560) - Loading plug-in code
+2026-03-25 09:45:43,740 (ffffb772eb08) :  DEBUG (core:538) - Machine identifier is e54df6383d25ebd337b0eedd659aa30a8163aa07
+2026-03-25 09:45:43,741 (ffffb772eb08) :  DEBUG (core:539) - Server version is 1.43.0.10492-121068a07
+2026-03-25 09:45:43,742 (ffffb7774b08) :  DEBUG (services:362) - Loaded services
+2026-03-25 09:45:43,745 (ffffb7751b08) :  DEBUG (services:438) - No shared code to load
+2026-03-25 09:45:43,750 (ffffbae1f890) :  DEBUG (core:566) - Finished loading plug-in code
+2026-03-25 09:45:43,751 (ffffbae1f890) :  DEBUG (messaging:69) - Exposing function ArtistSearch for remote access
+2026-03-25 09:45:43,751 (ffffbae1f890) :  DEBUG (agentkit:1132) - Creating new agent class called HTBDAgent
+2026-03-25 09:45:43,754 (ffffbae1f890) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.lastfm'], 'languages': ['ab', 'aa', 'af', 'ak', 'sq', 'am', 'ar', 'an', 'hy', 'as', 'av', 'ae', 'ay', 'az', 'bm', 'ba', 'eu', 'be', 'bn', 'bh', 'bi', 'bs', 'pb', 'br', 'bg', 'my', 'ca', 'ch', 'ce', 'ny', 'zh', 'cu', 'cv', 'kw', 'co', 'cr', 'hr', 'cs', 'da', 'dv', 'nl', 'dz', 'en', 'eo', 'et', 'ee', 'fo', 'fj', 'fi', 'fr', 'fy', 'ff', 'gd', 'gl', 'lg', 'ka', 'de', 'el', 'gn', 'gu', 'ht', 'ha', 'he', 'hz', 'hi', 'ho', 'hu', 'is', 'io', 'ig', 'id', 'ia', 'ie', 'iu', 'ik', 'ga', 'it', 'ja', 'jv', 'kl', 'kn', 'kr', 'ks', 'kk', 'km', 'ki', 'rw', 'ky', 'kv', 'kg', 'ko', 'kj', 'ku', 'lo', 'la', 'lv', 'li', 'ln', 'lt', 'lu', 'lb', 'mk', 'mg', 'ms', 'ml', 'mt', 'gv', 'mi', 'mr', 'mh', 'mo', 'mn', 'na', 'nv', 'ng', 'ne', 'xn', 'nd', 'no', 'nb', 'nn', 'oc', 'oj', 'or', 'om', 'os', 'pi', 'pa', 'fa', 'pl', 'pt', 'ps', 'qu', 'rm', 'ro', 'rn', 'ru', 'se', 'sm', 'sg', 'sa', 'sc', 'sr', 'sn', 'ii', 'sd', 'si', 'sk', 'sl', 'so', 'st', 'nr', 'es', 'su', 'sw', 'ss', 'sv', 'tl', 'ty', 'tg', 'ta', 'tt', 'te', 'th', 'bo', 'ti', 'to', 'ts', 'tn', 'tr', 'tk', 'tw', 'ug', 'uk', 'ur', 'uz', 've', 'vi', 'vo', 'wa', 'cy', 'wo', 'xh', 'yi', 'yo', 'za', 'zu'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': False, 'name': 'Home Theater Backdrops'}]
+2026-03-25 09:45:43,755 (ffffbae1f890) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczMwCmNvbS5wbGV4YXBwLmFnZW50cy5odGJhY2tkcm9wc3MxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI0CnMxNApjb250cmlidXRlc190b3I1CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMHM1CnByZWZzczIyCkhvbWUgVGhlYXRlciBCYWNrZHJvcHNzNApuYW1lMQpzNgpBcnRpc3QxCnMyNQpjb20ucGxleGFwcC5hZ2VudHMubGFzdGZtMTg3CnMyCmFiczIKYWFzMgphZnMyCmFrczIKc3FzMgphbXMyCmFyczIKYW5zMgpoeXMyCmFzczIKYXZzMgphZXMyCmF5czIKYXpzMgpibXMyCmJhczIKZXVzMgpiZXMyCmJuczIKYmhzMgpiaXMyCmJzczIKcGJzMgpicnMyCmJnczIKbXlzMgpjYXMyCmNoczIKY2VzMgpueXMyCnpoczIKY3VzMgpjdnMyCmt3czIKY29zMgpjcnMyCmhyczIKY3NzMgpkYXMyCmR2czIKbmxzMgpkenMyCmVuczIKZW9zMgpldHMyCmVlczIKZm9zMgpmanMyCmZpczIKZnJzMgpmeXMyCmZmczIKZ2RzMgpnbHMyCmxnczIKa2FzMgpkZXMyCmVsczIKZ25zMgpndXMyCmh0czIKaGFzMgpoZXMyCmh6czIKaGlzMgpob3MyCmh1czIKaXNzMgppb3MyCmlnczIKaWRzMgppYXMyCmllczIKaXVzMgppa3MyCmdhczIKaXRzMgpqYXMyCmp2czIKa2xzMgprbnMyCmtyczIKa3NzMgpra3MyCmttczIKa2lzMgpyd3MyCmt5czIKa3ZzMgprZ3MyCmtvczIKa2pzMgprdXMyCmxvczIKbGFzMgpsdnMyCmxpczIKbG5zMgpsdHMyCmx1czIKbGJzMgpta3MyCm1nczIKbXNzMgptbHMyCm10czIKZ3ZzMgptaXMyCm1yczIKbWhzMgptb3MyCm1uczIKbmFzMgpudnMyCm5nczIKbmVzMgp4bnMyCm5kczIKbm9zMgpuYnMyCm5uczIKb2NzMgpvanMyCm9yczIKb21zMgpvc3MyCnBpczIKcGFzMgpmYXMyCnBsczIKcHRzMgpwc3MyCnF1czIKcm1zMgpyb3MyCnJuczIKcnVzMgpzZXMyCnNtczIKc2dzMgpzYXMyCnNjczIKc3JzMgpzbnMyCmlpczIKc2RzMgpzaXMyCnNrczIKc2xzMgpzb3MyCnN0czIKbnJzMgplc3MyCnN1czIKc3dzMgpzc3MyCnN2czIKdGxzMgp0eXMyCnRnczIKdGFzMgp0dHMyCnRlczIKdGhzMgpib3MyCnRpczIKdG9zMgp0c3MyCnRuczIKdHJzMgp0a3MyCnR3czIKdWdzMgp1a3MyCnVyczIKdXpzMgp2ZXMyCnZpczIKdm9zMgp3YXMyCmN5czIKd29zMgp4aHMyCnlpczIKeW9zMgp6YXMyCnp1cjAK'
+2026-03-25 09:45:43,760 (ffffbae1f890) :  INFO (core:611) - Started plug-in
+2026-03-25 09:45:43,760 (ffffbae1f890) :  DEBUG (socketinterface:160) - Starting socket server
+2026-03-25 09:45:43,761 (ffffbae1f890) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2026-03-25 09:45:43,761 (ffffbae1f890) :  INFO (socketinterface:184) - Socket server started on port 38749
+2026-03-25 09:45:43,761 (ffffbae1f890) :  INFO (pipeinterface:25) - Entering run loop
+2026-03-25 09:45:43,762 (ffffbae1f890) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2026-03-25 09:45:43,762 (ffffbae1f890) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2026-03-25 09:45:43,763 (ffffbae1f890) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 155 bytes

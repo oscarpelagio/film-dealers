@@ -1,7 +1,54 @@
-Mar 25, 2026 00:18:22.338 [281472763506168] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
-Mar 25, 2026 00:18:22.339 [281472763506168] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1, language: en-US
-Mar 25, 2026 00:18:22.339 [281472763506168] INFO - Processor: 8-core Apple Swift
-Mar 25, 2026 00:18:22.339 [281472763506168] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 1 --content-type=application/json
-Mar 25, 2026 00:18:22.344 [281472859398200] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Mar 25, 2026 00:18:22.487 [281472859398200] DEBUG - Matcher: found 0 auxiliary files for Los domingos
-Mar 25, 2026 00:18:22.487 [281472859398200] DEBUG - Matcher: no sidecar subtitle files found for /movies/Los domingos (2025).mkv
+Mar 25, 2026 18:47:35.180 [281472890011128] INFO - Plex Media Scanner v1.43.0.10492-121068a07 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 01:00
+Mar 25, 2026 18:47:35.180 [281472890011128] INFO - Linux version: 6.17.8-orbstack-00308-g8f9c941121b1, language: en-US
+Mar 25, 2026 18:47:35.180 [281472890011128] INFO - Processor: 8-core Apple Swift
+Mar 25, 2026 18:47:35.180 [281472890011128] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 35 --content-type=application/json
+Mar 25, 2026 18:47:35.178 [281472985952312] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Mar 25, 2026 18:47:35.223 [281472985952312] DEBUG - Matcher: found 0 auxiliary files for Hamnet
+Mar 25, 2026 18:47:35.223 [281472985952312] DEBUG - [MI] Opening input file: "/movies/Hamnet (2025)/Hamnet (2025) WEBDL-1080p.mp4"
+Mar 25, 2026 18:47:35.223 [281472985952312] DEBUG - [FFMPEG] - Opening '/movies/Hamnet (2025)/Hamnet (2025) WEBDL-1080p.mp4' for reading
+Mar 25, 2026 18:47:35.223 [281472985952312] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Mar 25, 2026 18:47:35.223 [281472985952312] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Mar 25, 2026 18:47:35.223 [281472985952312] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Mar 25, 2026 18:47:35.223 [281472985952312] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Mar 25, 2026 18:47:35.224 [281472985952312] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 4000, duration: 54853560
+Mar 25, 2026 18:47:35.224 [281472985952312] DEBUG - [FFMPEG] - Offset DTS by 4000 to make first pts zero.
+Mar 25, 2026 18:47:35.224 [281472985952312] DEBUG - [FFMPEG] - Setting codecpar->delay to 1 for stream st: 0
+Mar 25, 2026 18:47:35.224 [281472985952312] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 29259264
+Mar 25, 2026 18:47:35.225 [281472985952312] WARN - [FFMPEG] - stream 0, timescale not set
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - rfps: 23.916667 0.004905
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - rfps: 23.916667 0.004905
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - rfps: 24.000000 0.000800
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - rfps: 24.000000 0.000800
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - rfps: 24.083333 0.016031
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - rfps: 24.083333 0.016031
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - rfps: 48.000000 0.003201
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - rfps: 48.000000 0.003201
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - rfps: 23.976024 0.000000
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - rfps: 47.952048 0.000000
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 332296967 bytes read:494951 seeks:1 nb_streams:3
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 18:47:35.225 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 18:47:35.226 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 18:47:35.226 [281472985952312] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 18:47:35.226 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 18:47:35.226 [281472985952312] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 18:47:35.226 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Mar 25, 2026 18:47:35.226 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 18:47:35.226 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 18:47:35.226 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Mar 25, 2026 18:47:35.226 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Mar 25, 2026 18:47:35.226 [281472985952312] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 18:47:35.226 [281472985952312] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Mar 25, 2026 18:47:35.228 [281472985952312] DEBUG - [FFMPEG] - no picture 
+Mar 25, 2026 18:47:35.237 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 9(AUD), nal_ref_idc: 0
+Mar 25, 2026 18:47:35.237 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Mar 25, 2026 18:47:35.245 [281472985952312] DEBUG - [FFMPEG] - All info found
+Mar 25, 2026 18:47:35.246 [281472985952312] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 133935 bytes read:660578 seeks:2 frames:4
+Mar 25, 2026 18:47:35.246 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Mar 25, 2026 18:47:35.246 [281472985952312] DEBUG - [FFMPEG] - Decoding VUI
+Mar 25, 2026 18:47:35.246 [281472985952312] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Mar 25, 2026 18:47:35.247 [281472985952312] DEBUG - MediaFile: found embedded image, saved to '"/run/plex-temp/b368ffbbe8d3202256370699e8582f36.jpg"'
+Mar 25, 2026 18:47:35.247 [281472985952312] DEBUG - [MI] Closing input file: "/movies/Hamnet (2025)/Hamnet (2025) WEBDL-1080p.mp4"
+Mar 25, 2026 18:47:35.247 [281472985952312] DEBUG - Matcher: no sidecar subtitle files found for /movies/Hamnet (2025)/Hamnet (2025) WEBDL-1080p.mp4

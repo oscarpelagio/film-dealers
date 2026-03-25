@@ -2,6 +2,9 @@
     "movies": {
         "save_path": ""
     },
+    "prowlarr": {
+        "save_path": ""
+    },
     "radarr": {
         "save_path": ""
     },
