@@ -85,6 +85,7 @@ services:
       - FIREWALL_OUTBOUND_SUBNETS=172.20.0.0/16
     ports:
       - 9696:9696 # Solo dejamos el puerto de Prowlarr aquí
+      - 8191:8191
     networks:
       - media_net
     restart: unless-stopped
@@ -126,14 +127,13 @@ services:
   flaresolverr:
     image: ghcr.io/flaresolverr/flaresolverr:latest
     container_name: flaresolverr
+    network_mode: service:gluetun # Ahora sale por la VPN
+    depends_on:
+    - gluetun
     environment:
       - LOG_LEVEL=info
       - TZ=Europe/Madrid
-    ports:
-      - "8191:8191"
     restart: unless-stopped
-    networks:
-      - media_net 
       
 networks:
   media_net:
